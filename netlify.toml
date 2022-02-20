@@ -1,4 +1,42 @@
+[build]
+    publish = "public/"
+    command = "hugo --gc --minify"
+
+[build.environment]
+    HUGO_VERSION = "v0.92.0+extended"
+
+[context.production.environment]
+    HUGO_ENV = "production"
+
+[context.branch-deploy]
+    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
 [[redirects]]
     from = "/*"
     to = "/404/"
     status = 404
+
+[[headers]]
+    for = "*.js"
+    [headers.values]
+        cache-control = '''
+        public,
+        max-age=15552000'''
+[[headers]]
+    for = "*.css"
+    [headers.values]
+        cache-control = '''
+        public,
+        max-age=15552000'''
+[[headers]]
+    for = "*.webp"
+    [headers.values]
+        cache-control = '''
+        public,
+        max-age=15552000'''
+[[headers]]
+    for = "*.ttf"
+    [headers.values]
+        cache-control = '''
+        public,
+        max-age=15552000'''
