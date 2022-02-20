@@ -1,4 +1,3 @@
-baseURL = "/"
 theme = "studio-fika"
 defaultContentLanguage = "fi"
 disableLanguages = ["en"]

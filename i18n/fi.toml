@@ -87,3 +87,9 @@
 
 [openHoursValue]
     other = "Auki sopimuksen mukaan,\nmyös iltaisin ja viikonloppuisin"
+
+[honeypot]
+    other = "Ensisijainen valintasi"
+
+[honeypotPlaceholder]
+    other = "Ilmoita ensisijainen valintasi tähän"

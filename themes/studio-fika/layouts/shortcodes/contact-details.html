@@ -37,7 +37,18 @@
         </div>
     </dl>
     <h2 class="contact-details__form-header">{{- i18n "contactUs" -}}</h2>
-    <form class="contact-details__form" name="contact" method="POST" action="{{- "yhteystiedot/yhteydenotto/" | relLangURL -}}" data-netlify="true">
+    <form
+        class="contact-details__form"
+        name="contact"
+        method="POST"
+        action="{{- "yhteystiedot/yhteydenotto/" | relLangURL -}}"
+        data-netlify="true"
+        netlify-honeypot="preference">
+        <label>
+            <input type="text" name="preference" placeholder="{{- i18n "honeypotPlaceholder" -}}">
+            <span>{{- i18n "honeypot" -}}</span>
+            <span>{{- i18n "invalidValue" -}}</span>
+        </label>
         <label>
             <input type="text" name="name" placeholder="{{- i18n "namePlaceholder" -}}" required>
             <span>{{- i18n "name" -}}</span>

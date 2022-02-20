@@ -1,6 +1,10 @@
 form {
     width: 100%;
 
+    & > label:first-of-type {
+        display: none;
+    }
+
     button[type='submit'] {
         @include cta($solid: true);
 
