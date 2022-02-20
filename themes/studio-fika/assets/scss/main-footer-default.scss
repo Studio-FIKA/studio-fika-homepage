@@ -1,0 +1,121 @@
+.main-footer-default {
+    @include themify {
+        background: themed('color', 'complementary', '2');
+
+        &,
+        a {
+            color: themed('color', 'main', '1');
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px 16px;
+        max-width: em-to-rem(map-get($breakpoint, 'tablet-xxl'));
+        margin: 0 auto;
+        padding: 64px 16px;
+
+        @include bp-tablet-xs {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &--left {
+            @include bp-tablet-xs {
+                justify-content: flex-start;
+                text-align: left;
+            }
+        }
+
+        &--center {
+            order: -1;
+
+            @include bp-tablet-xs {
+                order: 0;
+            }
+        }
+
+        &--right {
+            flex-direction: column;
+
+            @include bp-tablet-xs {
+                align-items: flex-end;
+                text-align: right;
+            }
+        }
+    }
+
+    &__nav {
+        ul {
+            li {
+                & + li {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+
+    &__logo {
+        width: 160px;
+        max-width: 100%;
+
+        svg {
+            width: 100%;
+        }
+    }
+
+    &__social-media-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > div {
+            & + div {
+                margin-left: 8px;
+            }
+        }
+    }
+
+    &__social-media {
+        display: block;
+        font-size: 24px;
+    }
+
+    &__contact-info {
+        overflow: hidden;
+        margin-bottom: 8px;
+
+        & > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include bp-tablet-xs {
+                justify-content: flex-start;
+                flex-direction: row-reverse;
+            }
+
+            & + div {
+                margin-top: 8px;
+            }
+
+            & > dt {
+                font-size: 24px;
+                margin-right: 8px;
+
+                @include bp-tablet-xs {
+                    margin-right: 0;
+                    margin-left: 8px;
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}

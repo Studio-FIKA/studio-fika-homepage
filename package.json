@@ -1,0 +1,28 @@
+{
+    "name": "studio-fika-homepage",
+    "version": "1.0.0",
+    "description": "Homepage of Studio FIKA",
+    "scripts": {
+        "dev": "hugo server -D -p 1313",
+        "build": "hugo --minify",
+        "proxy": "browser-sync start --proxy 'localhost:1313' --ws --no-open",
+        "lint": "eslint ./",
+        "prepare": "husky install"
+    },
+    "author": "Studio FIKA",
+    "private": true,
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "browser-sync": "^2.27.7",
+        "eslint": "^8.8.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.4",
+        "postcss": "^8.4.5",
+        "postcss-cli": "^9.1.0",
+        "postcss-pxtorem": "^6.0.0",
+        "prettier": "2.5.1"
+    }
+}

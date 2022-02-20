@@ -1,0 +1,12 @@
+{{ $scratch := newScratch }}
+
+{{ if eq (.Get "decoration") "1" }}
+{{ $scratch.Set "decor" ("themes/studio-fika/assets/decorations/decor-1.svg" | readFile | safeHTML) }}
+{{ end }}
+
+<div class="decorated">
+    <div class="decorated__decoration decorated__decoration--{{- .Get "decoration" -}}" aria-hidden="true">
+        {{- $scratch.Get "decor" -}}
+    </div>
+    {{- .Inner -}}
+</div>

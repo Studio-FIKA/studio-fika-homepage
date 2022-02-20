@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+
+    & + p {
+        margin-top: 8px;
+    }
+
+    tr {
+        &:not(:last-child) {
+            td {
+                border-bottom: 1px dotted;
+
+                @include safari-only {
+                    border-style: solid;
+                }
+
+                @include themify {
+                    border-color: themed('color', 'main', '4');
+                }
+            }
+        }
+    }
+
+    th,
+    td {
+        vertical-align: middle;
+    }
+
+    th {
+        @include vhidden;
+
+        padding: 16px;
+        font-weight: 700;
+        border-bottom: 2px solid;
+
+        @include themify {
+            border-color: themed('color', 'main', '4');
+        }
+    }
+
+    td {
+        padding: 8px 16px;
+
+        &:last-child {
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<div class="personnel">
+    <div class="personnel__persons">
+        {{ range $person := .Site.Params.personnel }}
+        <div class="personnel__person">
+            <div class="personnel__name">
+                {{- $person.name | safeHTML -}}
+            </div>
+            <div class="personnel__image">
+                {{
+                    partial "img" (
+                        dict
+                        "context" .
+                        "src" $person.image
+                        "alt" ($person.name | safeHTML)
+                        "sizes" (
+                            slice
+                            (slice 320 170 170)
+                            (slice 2560 228 228)
+                            (slice 3840 342 342)
+                        )
+                    )
+                }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div class="personnel__read-more-wrapper">
+        <a href="{{- "tiimi/" | absLangURL -}}" class="personnel__read-more">
+            {{- i18n "readMoreAboutOurTeam" -}}
+        </a>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+main > img {
+    width: 100%;
+    height: 60vh;
+    min-height: 420px;
+    object-fit: cover;
+    object-position: center;
+
+    @include bp-tablet-xs {
+        min-height: 640px;
+    }
+}

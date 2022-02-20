@@ -1,0 +1,338 @@
+@mixin bp($min: null, $max: null) {
+    @if $min and $max {
+        @media screen and (min-width: $min) and (max-width: #{$max - em(1px)}) {
+            @content;
+        }
+    } @else if $min {
+        @media screen and (min-width: $min) {
+            @content;
+        }
+    } @else if $max {
+        @media screen and (max-width: #{$max - em(1px)}) {
+            @content;
+        }
+    }
+}
+
+@mixin bp-mobile-xs {
+    @include bp(map-get($breakpoint, 'mobile-xs')) {
+        @content;
+    }
+}
+
+@mixin bp-mobile-sm {
+    @include bp(map-get($breakpoint, 'mobile-sm')) {
+        @content;
+    }
+}
+
+@mixin bp-mobile-md {
+    @include bp(map-get($breakpoint, 'mobile-md')) {
+        @content;
+    }
+}
+
+@mixin bp-mobile-lg {
+    @include bp(map-get($breakpoint, 'mobile-lg')) {
+        @content;
+    }
+}
+
+@mixin bp-mobile-xl {
+    @include bp(map-get($breakpoint, 'mobile-xl')) {
+        @content;
+    }
+}
+
+@mixin bp-mobile-xxl {
+    @include bp(map-get($breakpoint, 'mobile-xxl')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-xs {
+    @include bp(map-get($breakpoint, 'tablet-xs')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-sm {
+    @include bp(map-get($breakpoint, 'tablet-sm')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-md {
+    @include bp(map-get($breakpoint, 'tablet-md')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-lg {
+    @include bp(map-get($breakpoint, 'tablet-lg')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-xl {
+    @include bp(map-get($breakpoint, 'tablet-xl')) {
+        @content;
+    }
+}
+
+@mixin bp-tablet-xxl {
+    @include bp(map-get($breakpoint, 'tablet-xxl')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-xs {
+    @include bp(map-get($breakpoint, 'desktop-xs')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-sm {
+    @include bp(map-get($breakpoint, 'desktop-sm')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-md {
+    @include bp(map-get($breakpoint, 'desktop-md')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-lg {
+    @include bp(map-get($breakpoint, 'desktop-lg')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-xl {
+    @include bp(map-get($breakpoint, 'desktop-xl')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-xxl {
+    @include bp(map-get($breakpoint, 'desktop-xxl')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-xxxl {
+    @include bp(map-get($breakpoint, 'desktop-xxxl')) {
+        @content;
+    }
+}
+
+@mixin bp-desktop-xxxxl {
+    @include bp(map-get($breakpoint, 'desktop-xxxxl')) {
+        @content;
+    }
+}
+
+@mixin button-reset {
+    background: transparent;
+    border: 0;
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
+}
+
+@mixin box-shadow-layered-1 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+        0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+@mixin box-shadow-layered-2 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+        0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+@mixin box-shadow-layered-3 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+        0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+        0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+
+@mixin box-shadow-sharp {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+        0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+        0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+@mixin box-shadow-diffuse {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+        0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+        0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+@mixin box-shadow-shorter {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+        0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+        0 8px 16px rgba(0, 0, 0, 0.11);
+}
+
+@mixin box-shadow-longer {
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+        0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+        0 32px 16px rgba(0, 0, 0, 0.09);
+}
+
+@mixin box-shadow-dreamy-soft {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+        0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+        0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+@mixin vhidden {
+    position: absolute !important;
+    left: -10000px !important;
+    top: auto !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+}
+
+// https://stackoverflow.com/a/32455002
+@mixin firefox-only {
+    @supports (-moz-appearance: none) {
+        @content;
+    }
+}
+
+// https://browserstrangeness.bitbucket.io/css_hacks.html#safari
+@mixin safari-only {
+    @media not all and (min-resolution: 0.001dpcm) {
+        @supports (-webkit-appearance: none) {
+            @content;
+        }
+    }
+}
+
+@mixin cta($solid: false, $translateYStart: 0%) {
+    @include button-reset;
+
+    font-family: map-get($font, 'header');
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    transition: box-shadow 0.3s ease-out, color 0.3s ease-out,
+        background 0.3s ease-out, transform 0.3s ease-out,
+        font-weight 0.3s ease-out;
+    padding: 0.5em 1em;
+    border: 2px solid;
+    border-radius: 4px;
+    transform: translateY($translateYStart) scale(1);
+    position: relative;
+    overflow: hidden;
+
+    @if $solid {
+        @include box-shadow-sharp;
+
+        @include themify {
+            color: themed('color', 'main', '1');
+            background: themed('color', 'main', '4');
+        }
+    } @else {
+        @include themify {
+            color: themed('color', 'main', '4');
+        }
+    }
+
+    @include themify {
+        border-color: themed('color', 'main', '4');
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -150%;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        transition: none;
+        pointer-events: none;
+
+        @include themify {
+            background: themed('color', 'main', '1');
+            box-shadow: 0 0 16px 16px themed('color', 'main', '1');
+        }
+    }
+
+    &:hover,
+    &:focus {
+        @include box-shadow-sharp;
+
+        text-decoration: none;
+        font-weight: 600;
+        transform: translateY($translateYStart - 5%) scale(1.025);
+
+        @include themify {
+            color: themed('color', 'main', '1');
+            background: themed('color', 'main', '4');
+        }
+
+        &::after {
+            transition: left 0.3s ease-out;
+            left: 150%;
+        }
+    }
+}
+
+@mixin fancy-border(
+    $inner-width: 2px,
+    $outer-width: 1px,
+    $radius: 4px,
+    $pseudo: false,
+    $use-shadow: false
+) {
+    @if $pseudo {
+        border: $outer-width solid;
+        border-radius: $radius;
+        overflow: hidden;
+
+        @include themify {
+            border-color: themed('color', 'main', '4');
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: $radius;
+            pointer-events: none;
+
+            @include themify {
+                box-shadow: 0 0 0 $inner-width
+                    themed('color', 'complementary', '1') inset;
+            }
+        }
+    } @else if $use-shadow {
+        border-radius: $radius;
+        overflow: hidden;
+
+        @include themify {
+            box-shadow: 0 0 0 $inner-width themed('color', 'complementary', '1'),
+                0 0 0 ($inner-width + $outer-width) themed('color', 'main', '4');
+        }
+    } @else {
+        border: $outer-width solid;
+        border-radius: $radius;
+
+        @include themify {
+            border-color: themed('color', 'main', '4');
+            box-shadow: 0 0 0 $inner-width themed('color', 'complementary', '1')
+                inset;
+        }
+    }
+}

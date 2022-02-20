@@ -1,0 +1,76 @@
+.personnel {
+    &__persons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -32px;
+        margin-left: -32px;
+    }
+
+    &__person {
+        position: relative;
+        text-align: center;
+        padding-top: 32px;
+        padding-left: 32px;
+        flex: 0 0 (100 / 3 * 1%);
+
+        @include bp-tablet-xs {
+            flex: 0 0 (100 / 3 * 1%);
+        }
+    }
+
+    &__name {
+        font-size: clamp(0vw, 5vw, 16px);
+        font-family: map-get($font, 'header');
+        font-weight: 400;
+        line-height: 1;
+        overflow-wrap: anywhere;
+        margin: 0 0 12px;
+
+        @include themify {
+            color: themed('color', 'main', '4');
+        }
+
+        @include bp-tablet-xs {
+            font-size: clamp(0vw, 5vw, 18px);
+        }
+    }
+
+    &__image {
+        @include fancy-border(
+            $use-shadow: true,
+            $outer-width: 2px,
+            $radius: 50%
+        );
+
+        position: relative;
+        padding-top: (1 / 1 * 100%);
+        width: 100%;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__read-more-wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 32px;
+
+        @include bp-tablet-xs {
+            margin-top: 48px;
+        }
+    }
+
+    &__read-more {
+        @include cta;
+    }
+}

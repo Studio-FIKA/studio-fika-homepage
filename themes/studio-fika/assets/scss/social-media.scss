@@ -1,0 +1,28 @@
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__link {
+        display: block;
+        margin: 16px;
+        text-align: center;
+
+        @include themify {
+            border-color: themed('color', 'main', '4');
+        }
+    }
+
+    &__icon {
+        display: block;
+        font-size: 32px;
+    }
+
+    &__name {
+        display: block;
+        margin-top: 8px;
+        font-family: map-get($font, 'header');
+        font-weight: 500;
+    }
+}

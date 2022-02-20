@@ -1,0 +1,10 @@
+form {
+    width: 100%;
+
+    button[type='submit'] {
+        @include cta($solid: true);
+
+        margin-top: 24px;
+        width: 100%;
+    }
+}

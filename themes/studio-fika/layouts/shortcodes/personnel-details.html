@@ -1,0 +1,49 @@
+<div class="personnel-details">
+    {{ range $index, $person := .Site.Params.personnel }}
+    <article class="personnel-details__person">
+        <header class="personnel-details__person-header">
+            <h1 class="personnel-details__person-name">
+                {{- $person.name | safeHTML -}}
+            </h1>
+            <div class="personnel-details__person-image">
+                {{
+                    partial "img" (
+                        dict
+                        "context" .
+                        "src" $person.image
+                        "alt" ($person.name | safeHTML)
+                        "sizes" (
+                            slice
+                            (slice 320 256 256)
+                            (slice 768 160 160)
+                            (slice 2560 211 211)
+                            (slice 3840 314 314)
+                        )
+                        "loading" (cond (eq $index 0) "eager" "lazy")
+                    )
+                }}
+            </div>
+            <div class="personnel-details__person-additional-info">
+                {{ if $person.title }}
+                <div class="personnel-details__person-title">
+                    {{- $person.title | safeHTML -}}
+                </div>
+                {{ end }}
+                {{ if $person.instagram }}
+                <div class="personnel-details__person-social-links">
+                {{ if $person.instagram }}
+                    <a href="{{- $person.instagram | safeHTML -}}" target="_blank" rel="noopener noreferrer" class="icon personnel-details__person-social-media">
+                        <span class="vhidden">Instagram</span>
+                        {{- (print "themes/studio-fika/assets/icons/instagram.svg") | readFile | safeHTML -}}
+                    </a>
+                {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </header>
+        <p class="personnel-details__person-intro">
+            {{- i18n $person.introduction | safeHTML -}}
+        </p>
+    </article>
+    {{ end }}
+</div>

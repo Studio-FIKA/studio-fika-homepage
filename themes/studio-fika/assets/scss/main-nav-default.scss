@@ -1,0 +1,216 @@
+.main-nav-default {
+    $parent: &;
+
+    z-index: map-get($z-index, 'high');
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid;
+    transition: transform 0.2s ease-out, box-shadow 0.4s ease-out;
+
+    @include themify {
+        border-color: themed('color', 'main', '2');
+    }
+
+    &--type-sticky {
+        position: sticky;
+    }
+
+    &--type-fixed {
+        position: fixed;
+    }
+
+    &--type-sticky,
+    &--type-fixed {
+        &[data-hidden='false'],
+        &:focus-within {
+            &[data-wild='true'] {
+                @include box-shadow-dreamy-soft;
+            }
+        }
+    }
+
+    &--type-relative {
+        position: relative;
+    }
+
+    &[data-hidden='true']:not(:focus-within) {
+        transform: translateY(-100%);
+    }
+
+    &__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 1;
+        transition: opacity 0.4s ease-out;
+
+        @include themify {
+            background: themed('color', 'complementary', '1');
+        }
+
+        @include bp-tablet-xs {
+            z-index: 0;
+        }
+    }
+
+    &[data-transparent='false'],
+    &[data-transparent='true'][data-wild='true'] {
+        #{$parent}__background {
+            opacity: 1;
+        }
+    }
+
+    &__content {
+        position: relative;
+        max-width: em-to-rem(map-get($breakpoint, 'tablet-xxl'));
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        flex: 0 0 auto;
+        z-index: 1;
+
+        & > a {
+            padding: 8px 16px;
+            display: block;
+            width: 136px;
+
+            @include themify {
+                fill: themed('color', 'main', '4');
+            }
+        }
+    }
+
+    &__toggle {
+        @include button-reset;
+
+        flex: 0 0 auto;
+        z-index: 1;
+        font-size: 24px;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include themify {
+            color: themed('color', 'main', '4');
+        }
+
+        & > :last-child {
+            display: none;
+        }
+
+        &[aria-expanded='false'] {
+            @include bp-tablet-xs {
+                display: none;
+            }
+        }
+
+        &[aria-expanded='true'] {
+            & > :first-child {
+                display: none;
+            }
+
+            & > :last-child {
+                display: block;
+            }
+        }
+    }
+
+    &__items {
+        transition: opacity 200ms ease-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 80px 0;
+        overflow: auto;
+
+        @include themify {
+            background: themed('color', 'complementary', '1');
+        }
+
+        & > ul {
+            margin: auto;
+            width: 100%;
+
+            & > li {
+                display: block;
+                padding: 8px;
+                text-align: center;
+
+                & > a {
+                    display: inline-block;
+                    padding: 8px;
+                    font-family: map-get($font, 'header');
+                    font-size: 32px;
+                    font-weight: 400;
+                    overflow-wrap: break-word;
+
+                    &[aria-current='page'] {
+                        font-weight: 600;
+                    }
+
+                    @include themify {
+                        color: themed('color', 'main', '4');
+                    }
+                }
+            }
+        }
+
+        &[data-open='true'],
+        &:focus-within {
+            opacity: 1;
+        }
+
+        &[data-open='false'] {
+            &:not(:focus-within) {
+                opacity: 0;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            @include bp-tablet-xs {
+                opacity: 1 !important;
+                pointer-events: auto !important;
+                user-select: auto !important;
+                background: transparent !important;
+                transition: none;
+                position: static;
+                overflow: visible;
+                flex: 0 1 auto;
+                display: block;
+                padding: 0;
+
+                & > ul {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    & > li {
+                        & > a {
+                            font-family: map-get($font, 'text');
+                            font-size: 18px;
+
+                            @include themify {
+                                color: themed('color', 'main', '4');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

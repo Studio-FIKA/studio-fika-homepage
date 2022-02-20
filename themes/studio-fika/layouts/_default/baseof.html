@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html
+    lang="{{- .Site.Language.Lang -}}"
+    data-theme="{{- .Site.Params.theme.default -}}"
+>
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "header.html" . }}
+        {{ partial "hero.html" . }}
+        <main>
+            {{ if .IsHome }}
+            {{ end }}
+            {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer.html" . }}
+        {{ partial "scripts.html" . }}
+    </body>
+</html>

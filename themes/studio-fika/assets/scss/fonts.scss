@@ -1,0 +1,52 @@
+/**
+ * Playfair Display
+ */
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf')
+        format('truetype-variations');
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+    font-display: swap;
+}
+
+/**
+ * Source Sans Pro
+ */
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf')
+        format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

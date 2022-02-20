@@ -1,0 +1,18 @@
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "classes" "cta" }}
+{{ $scratch.Set "addClasses" "" }}
+
+{{ if .Get "type" }}
+    {{ $scratch.Add "addClasses" (print " cta--type-" (.Get "type")) }}
+{{ else }}
+    {{ $scratch.Add "addClasses" (print " cta--type-default") }}
+{{ end }}
+
+{{ $scratch.Add "classes" ($scratch.Get "addClasses") }}
+
+<span class="{{- $scratch.Get "classes" -}}">
+    <a href="{{- .Get "href" | absLangURL -}}" class="cta__button">
+        {{- .Inner | safeHTML -}}
+    </a>
+</span>

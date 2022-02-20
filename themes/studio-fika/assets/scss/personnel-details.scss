@@ -1,0 +1,154 @@
+.personnel-details {
+    $block: &;
+
+    @include bp-tablet-xs {
+        margin: 96px 0;
+    }
+
+    &__person {
+        position: relative;
+        text-align: center;
+
+        @include bp-tablet-xs {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            left: 64px;
+            padding-right: 96px;
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+                text-align: right;
+                left: -64px;
+                padding-right: 0;
+                padding-left: 96px;
+            }
+        }
+
+        & + & {
+            margin-top: 32px;
+
+            @include bp-tablet-xs {
+                margin-top: 96px;
+            }
+        }
+    }
+
+    &__person-header {
+        padding: 0 32px;
+        max-width: 320px;
+        margin: 0 auto;
+
+        @include bp-tablet-xs {
+            position: relative;
+            flex: 0 0 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0;
+            margin-right: 32px;
+
+            @at-root #{$block}__person:nth-child(even) & {
+                margin-right: 0;
+                margin-left: 32px;
+            }
+        }
+    }
+
+    &__person-name {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0 0 16px;
+
+        @include bp-tablet-xs {
+            position: absolute;
+            top: 0;
+            transform: translateY(-100%);
+        }
+    }
+
+    &__person-image {
+        @include fancy-border(
+            $use-shadow: true,
+            $outer-width: 2px,
+            $radius: 50%
+        );
+
+        position: relative;
+        padding-top: (1 / 1 * 100%);
+        width: 100%;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__person-additional-info {
+        @include bp-tablet-xs {
+            position: absolute;
+            bottom: 0;
+            transform: translateY(100%);
+        }
+    }
+
+    &__person-title {
+        padding-top: 24px;
+        font-family: map-get($font, 'header');
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.4;
+
+        @include bp-tablet-xs {
+            padding-top: 16px;
+            font-size: 16px;
+        }
+    }
+
+    &__person-social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -16px;
+
+        @include bp-tablet-xs {
+            margin-bottom: 0;
+        }
+    }
+
+    &__person-social-media {
+        font-size: 24px;
+        margin: 8px;
+        padding: 8px;
+    }
+
+    &__person-intro {
+        padding: 1em 1em 2em;
+        border-bottom: 4px dotted;
+        line-height: 1.6;
+
+        @include safari-only {
+            border-bottom: 6px double;
+        }
+
+        @include themify {
+            border-color: themed('color', 'main', '2');
+        }
+
+        @at-root #{$block}__person:last-child & {
+            border-bottom: 0;
+        }
+
+        @include bp-tablet-xs {
+            padding: 1em 0 1em;
+            font-family: map-get($font, 'header');
+        }
+    }
+}

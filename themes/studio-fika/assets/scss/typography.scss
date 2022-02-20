@@ -1,0 +1,30 @@
+.typography {
+    &--size {
+        &-sm {
+            font-size: 16px;
+        }
+
+        &-md {
+            font-size: 16px;
+
+            @include bp-tablet-xs {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &--type {
+        @at-root &-emphasized {
+            border-left: 4px dotted;
+            padding: 8px 16px;
+
+            @include safari-only {
+                border-style: double;
+            }
+
+            @include themify {
+                border-color: themed('color', 'main', '3');
+            }
+        }
+    }
+}

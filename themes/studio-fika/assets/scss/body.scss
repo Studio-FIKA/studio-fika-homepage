@@ -1,0 +1,9 @@
+body {
+    scroll-behavior: smooth;
+    font-family: map-get($font, 'text');
+
+    @include themify {
+        background: themed('color', 'complementary', '1');
+        color: themed('color', 'main', '4');
+    }
+}

@@ -1,0 +1,7 @@
+strong {
+    font-weight: 500;
+
+    &:only-child {
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,9 @@
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+
+    @include bp-tablet-xs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

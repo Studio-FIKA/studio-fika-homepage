@@ -1,0 +1,19 @@
+<dl class="social-media">
+    {{ range $media := .Site.Params.socialMedia }}
+    <div>
+        <dt class="vhidden">
+            {{- $media.name -}}
+        </dt>
+        <dd>
+            <a href="{{- $media.url -}}" target="_blank" rel="noopener noreferrer" class="social-media__link">
+                <span class="icon social-media__icon" aria-hidden="true">
+                    {{- (print "themes/studio-fika/assets/icons/" $media.icon ".svg") | readFile | safeHTML -}}
+                </span>
+                <span class="social-media__name">
+                    {{- default $media.name $media.profile -}}
+                </span>
+            </a>
+        </dd>
+    </div>
+    {{ end }}
+</dl>

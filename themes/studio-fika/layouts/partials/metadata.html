@@ -1,0 +1,37 @@
+{{ $imageSrc := default "images/image.png" .Params.image }}
+{{ $image := resources.Get $imageSrc }}
+{{ $imageFormat := "png" }}
+{{ $processedImage := $image.Fill (print "1200x630 Smart q100 " $imageFormat) }}
+
+{{ $title := (print .Site.Title " &mdash; " .Title) | safeHTML }}
+{{ $description := (default ((.Site.GetPage "").Description) .Description) | safeHTML }}
+
+<base href="{{- .Site.BaseURL -}}">
+
+<title>{{- $title -}}</title>
+
+<meta name="description" content="{{- $description -}}" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1" />
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex" />
+{{ else }}
+<meta name="robots" content="noarchive">
+{{ end }}
+
+<link rel="canonical" href="{{- .Permalink -}}" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+<meta property="og:title" content="{{- $title -}}" />
+<meta property="og:description" content="{{- $description -}}" />
+<meta property="og:url" content="{{- .Permalink -}}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="{{- .Site.Language.Lang -}}" />
+<meta property="og:site_name" content="{{- .Site.Title -}}" />
+<meta property="og:image" content="{{- $processedImage.Permalink -}}" />
+<meta property="og:image:width" content="{{- $processedImage.Width -}}" />
+<meta property="og:image:height" content="{{- $processedImage.Height -}}" />
+<meta property="og:image:type" content="image/{{- $imageFormat -}}" />

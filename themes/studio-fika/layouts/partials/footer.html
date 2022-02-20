@@ -1,0 +1,82 @@
+<footer class="main-footer-default">
+    <div class="main-footer-default__content">
+        <div class="main-footer-default__column main-footer-default__column--left">
+            <nav class="main-footer-default__nav" aria-label="{{- i18n "footerNavigation" -}}">
+                <ul>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{- .URL | absLangURL -}}" {{ if eq ($currentPage.Permalink | absLangURL) (.URL | absLangURL) }}aria-current="page"{{ end }}>
+                            {{- i18n .Name | safeHTML -}}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+        <div class="main-footer-default__column main-footer-default__column--center">
+            <a href="{{- .Site.BaseURL | absLangURL -}}" class="main-footer-default__logo">
+                {{- .Site.Params.footer.logo | readFile | safeHTML -}}
+            </a>
+        </div>
+        <div class="main-footer-default__column main-footer-default__column--right">
+            <dl class="main-footer-default__contact-info">
+                <div>
+                    <dt>
+                        <span class="vhidden">{{- i18n "streetAddress" -}}</span>
+                        {{ partial "icon" (dict "context" . "icon" "map-pin") }}
+                    </dt>
+                    <dd>
+                        {{- .Site.Params.contactInfo.streetAddress -}}
+                    </dd>
+                </div>
+                <div>
+                    <dt>
+                        <span class="vhidden">{{- i18n "email" -}}</span>
+                        {{ partial "icon" (dict "context" . "icon" "mail") }}
+                    </dt>
+                    <dd>
+                        <a href="mailto:{{- .Site.Params.contactInfo.email -}}">
+                            {{- .Site.Params.contactInfo.email -}}
+                        </a>
+                    </dd>
+                </div>
+                <div>
+                    <dt>
+                        <span class="vhidden">{{- i18n "tel" -}}</span>
+                        {{ partial "icon" (dict "context" . "icon" "phone") }}
+                    </dt>
+                    <dd>
+                        <a href="tel:{{- replaceRE "\\s" "" .Site.Params.contactInfo.tel -}}">
+                            {{- .Site.Params.contactInfo.tel -}}
+                        </a>
+                    </dd>
+                </div>
+                <div>
+                    <dt>
+                        <span class="vhidden">{{- i18n "companyId" -}}</span>
+                        {{ partial "icon" (dict "context" . "icon" "briefcase") }}
+                    </dt>
+                    <dd>
+                        {{- .Site.Params.contactInfo.companyId -}}
+                    </dd>
+                </div>
+            </dl>
+            <dl class="main-footer-default__social-media-links">
+                {{ range $media := .Site.Params.socialMedia }}
+                <div>
+                    <dt class="vhidden">
+                        {{- $media.name -}}
+                    </dt>
+                    <dd>
+                        <a href="{{- $media.url -}}" target="_blank" rel="noopener noreferrer" class="main-footer-default__social-media">
+                            <span class="vhidden">{{- default $media.name $media.profile -}}</span>
+                            {{ partial "icon" (dict "context" . "icon" $media.icon) }}
+                        </a>
+                    </dd>
+                </div>
+                {{ end }}
+            </dl>
+        </div>
+    </div>
+</footer>

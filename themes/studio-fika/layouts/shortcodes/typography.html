@@ -1,0 +1,27 @@
+{{ $tag := default "p" (.Get "tag") }}
+
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "classes" "typography" }}
+{{ $scratch.Set "addClasses" "" }}
+
+{{ if .Get "type" }}
+    {{ $scratch.Add "addClasses" (print " typography--type-" (.Get "type")) }}
+{{ end }}
+
+{{ if .Get "size" }}
+    {{ $scratch.Add "addClasses" (print " typography--size-" (.Get "size")) }}
+{{ end }}
+
+
+{{ $scratch.Add "classes" ($scratch.Get "addClasses") }}
+
+{{ if eq $tag "p" }}
+<p class="{{- $scratch.Get "classes" -}}">
+    {{- .Inner -}}
+</p>
+{{ else if eq $tag "div" }}
+<div class="{{- $scratch.Get "classes" -}}">
+    {{- .Inner -}}
+</div>
+{{ end }}

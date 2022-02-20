@@ -1,0 +1,78 @@
+.header {
+    $header: &;
+
+    @at-root {
+        #{$header},
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: map-get($font, 'header');
+            font-weight: 600;
+            line-height: 1.2;
+
+            @include bp-tablet-xs {
+                font-weight: 500;
+            }
+        }
+    }
+
+    &--level-1,
+    &--appear-1 {
+        $level1: &;
+
+        @at-root {
+            h1,
+            #{$level1} {
+                font-size: 32px;
+                margin: 24px 0;
+
+                @include bp-tablet-xs {
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+
+    &--level-2,
+    &--appear-2 {
+        $level2: &;
+
+        @at-root {
+            h2,
+            #{$level2} {
+                font-size: 24px;
+                margin: 18px 0;
+
+                @include bp-tablet-xs {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+
+    &--align {
+        &-center {
+            text-align: center;
+        }
+    }
+
+    @at-root main >,
+        main > section > {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: center;
+            padding: 0 16px;
+        }
+
+        h1:first-child {
+            margin: 64px 0 48px;
+        }
+    }
+}

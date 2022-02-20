@@ -1,0 +1,23 @@
+{{ if eq .Params.hero "default" }}
+
+<header class="hero-default">
+    <div class="hero-default__main-content">
+        {{ if .Params.heroImage }}
+        {{
+            partial "img" (
+                dict
+                "context" .
+                "src" .Params.heroImage
+                "alt" (.Params.heroHeader | safeHTML)
+                "loading" "eager"
+            )
+        }}
+        {{ end }}
+        <div class="hero-default__logo">
+            {{- .Params.heroLogo | readFile | safeHTML -}}
+        </div>
+        <h1 class="vhidden">{{- .Params.heroHeader | safeHTML -}}</h1>
+    </div>
+</header>
+
+{{ end }}

@@ -1,0 +1,23 @@
+.cta {
+    $parent: &;
+
+    display: inline-flex;
+
+    @at-root p ~ & {
+        margin-top: 1em;
+    }
+
+    &--type {
+        &-default {
+            #{$parent}__button {
+                @include cta;
+            }
+        }
+
+        &-solid {
+            #{$parent}__button {
+                @include cta($solid: true);
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+/**
+ * Declare breakpoints using `em` due to Safari bug:
+ * - https://danburzo.ro/media-query-units/#the-trouble-with-safari-again-:~:text=The%20trouble%20with%20Safari%20%28again%29
+ */
+$breakpoint: (
+    'mobile-xs': em(321),
+    'mobile-sm': em(375),
+    'mobile-md': em(480),
+    'mobile-lg': em(540),
+    'mobile-xl': em(640),
+    'mobile-xxl': em(720),
+    'tablet-xs': em(768),
+    'tablet-sm': em(800),
+    'tablet-md': em(900),
+    'tablet-lg': em(1024),
+    'tablet-xl': em(1080),
+    'tablet-xxl': em(1200),
+    'desktop-xs': em(1280),
+    'desktop-sm': em(1366),
+    'desktop-md': em(1440),
+    'desktop-lg': em(1600),
+    'desktop-xl': em(1920),
+    'desktop-xxl': em(2048),
+    'desktop-xxxl': em(2560),
+    'desktop-xxxxl': em(3840),
+);
+
+$z-index: (
+    'low': 1,
+    'medium': 2,
+    'high': 3,
+    'top': 2147483647,
+);
+
+$font: (
+    'header': #{'Playfair Display',
+    serif,
+    system-ui,
+    -apple-system},
+    'text': #{'Source Sans Pro',
+    sans-serif,
+    system-ui,
+    -apple-system},
+);

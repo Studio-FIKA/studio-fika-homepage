@@ -1,0 +1,39 @@
+{{ if or (not .Params.mainNav) (eq .Params.mainNav "default") }}
+
+{{ $type := default "sticky" (.Params.mainNavPosition) }}
+
+<nav
+    id="main-navigation"
+    class="main-nav-default main-nav-default--type-{{- $type -}}"
+    aria-label="{{- i18n "mainNavigation" -}}"
+    data-hidden="false"
+    data-wild="false"
+    data-transparent="{{ if .Params.mainNavTransparent }}true{{ else }}false{{ end }}">
+    <div class="main-nav-default__background"></div>
+    <div class="main-nav-default__content">
+        <div class="main-nav-default__logo">
+            <a href="{{- .Site.BaseURL | absLangURL -}}">
+                <span class="vhidden">{{- i18n "frontPage" -}}</span>
+                {{- .Site.Params.mainNavigation.logo | readFile | safeHTML -}}
+            </a>
+        </div>
+        <button type="button" id="main-navigation-toggle" class="main-nav-default__toggle" aria-label="{{ i18n "toggleNavigation" }}" aria-expanded="false" aria-controls="main-navigation-items">
+            {{ partial "icon.html" (dict "context" . "icon" "menu") }}
+            {{ partial "icon.html" (dict "context" . "icon" "x") }}
+        </button>
+        <div id="main-navigation-items" class="main-nav-default__items" data-open="false">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{- .URL | absLangURL -}}" {{ if eq ($currentPage.Permalink | absLangURL) (.URL | absLangURL) }}aria-current="page"{{ end }}>
+                        {{- i18n .Name | safeHTML -}}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{{ end }}

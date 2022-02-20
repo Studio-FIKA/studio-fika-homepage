@@ -1,0 +1,11 @@
+html {
+    font-size: 100%;
+
+    @include bp-desktop-xxxl {
+        font-size: 133% !important;
+    }
+
+    @include bp-desktop-xxxxl {
+        font-size: 200% !important;
+    }
+}

@@ -1,0 +1,65 @@
+<div class="contact-details">
+    <dl class="contact-details__details">
+        <div>
+            <dt>
+                <span class="vhidden">{{- i18n "streetAddress" -}}</span>
+                {{ partial "icon" (dict "context" . "icon" "map-pin") }}
+            </dt>
+            <dd>{{- .Site.Params.contactInfo.streetAddress -}}</dd>
+        </div>
+        <div>
+            <dt>
+                <span class="vhidden">{{- i18n "email" -}}</span>
+                {{ partial "icon" (dict "context" . "icon" "mail") }}
+            </dt>
+            <dd><a href="mailto:{{- .Site.Params.contactInfo.email -}}">{{- .Site.Params.contactInfo.email -}}</a></dd>
+        </div>
+        <div>
+            <dt>
+                <span class="vhidden">{{- i18n "tel" -}}</span>
+                {{ partial "icon" (dict "context" . "icon" "phone") }}
+            </dt>
+            <dd><a href="tel:{{- replaceRE "\\s" "" .Site.Params.contactInfo.tel -}}">{{- .Site.Params.contactInfo.tel -}}</a></dd>
+        </div>
+        <div>
+            <dt>
+                <span class="vhidden">{{- i18n "companyId" -}}</span>
+                {{ partial "icon" (dict "context" . "icon" "briefcase") }}
+            </dt>
+            <dd>{{- .Site.Params.contactInfo.companyId -}}</dd>
+        </div>
+        <div>
+            <dt>
+                <span class="vhidden">{{- i18n "openHours" -}}</span>
+                {{ partial "icon" (dict "context" . "icon" "clock") }}
+            </dt>
+            <dd>{{- i18n "openHoursValue" -}}</dd>
+        </div>
+    </dl>
+    <h2 class="contact-details__form-header">{{- i18n "contactUs" -}}</h2>
+    <form class="contact-details__form" name="contact" method="POST" action="{{- "yhteystiedot/yhteydenotto/" | relLangURL -}}" data-netlify="true">
+        <label>
+            <input type="text" name="name" placeholder="{{- i18n "namePlaceholder" -}}" required>
+            <span>{{- i18n "name" -}}</span>
+            <span>{{- i18n "invalidValue" -}}</span>
+        </label>
+        <label>
+            <input type="email" name="email" placeholder="{{- i18n "emailPlaceholder" -}}" required>
+            <span>{{- i18n "email" -}}</span>
+            <span>{{- i18n "invalidValue" -}}</span>
+        </label>
+        <label>
+            <input type="tel" name="tel" placeholder="{{- i18n "telPlaceholder" -}}" pattern="\+?[\s\d]+">
+            <span>{{- i18n "tel" -}}</span>
+            <span>{{- i18n "invalidValue" -}}</span>
+        </label>
+        <label>
+            <textarea name="message" placeholder="{{- i18n "messagePlaceholder" -}}" required></textarea>
+            <span>{{- i18n "message" -}}</span>
+            <span>{{- i18n "invalidValue" -}}</span>
+        </label>
+        <button type="submit">
+            {{- i18n "contactUs" -}}
+        </button>
+    </form>
+</div>

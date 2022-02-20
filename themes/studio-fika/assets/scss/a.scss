@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+
+    @include themify {
+        color: themed('color', 'main', '4');
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+    }
+}

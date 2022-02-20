@@ -1,0 +1,28 @@
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "classes" "container" }}
+{{ $scratch.Set "addClasses" "" }}
+
+{{ if .Get "maxWidth" }}
+{{ $scratch.Add "addClasses" (print " container--max-w-" (.Get "maxWidth")) }}
+{{ end }}
+
+{{ if .Get "padding" }}
+{{ $scratch.Add "addClasses" (print " container--p-" (.Get "padding")) }}
+{{ end }}
+
+{{ if .Get "margin" }}
+{{ $scratch.Add "addClasses" (print " container--m-" (.Get "margin")) }}
+{{ end }}
+
+{{ if .Get "alignText" }}
+{{ $scratch.Add "addClasses" (print " container--align-text-" (.Get "alignText")) }}
+{{ end }}
+
+{{ $scratch.Add "classes" ($scratch.Get "addClasses") }}
+
+<div
+    class="{{- $scratch.Get "classes" -}}"
+>
+    {{- .Inner -}}
+</div>

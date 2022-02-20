@@ -1,0 +1,8 @@
+{{ $js := resources.Get "js/index.js" | js.Build (dict "targetPath" "bundle.js" "minify" true "target" "es2015" "sourceMap" "inline") | resources.Fingerprint }}
+
+<script
+    type="text/javascript"
+    src="{{- $js.RelPermalink -}}"
+    integrity="{{- $js.Data.Integrity -}}"
+    defer
+></script>

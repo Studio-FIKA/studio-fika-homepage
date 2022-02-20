@@ -1,0 +1,78 @@
+theme = "studio-fika"
+defaultContentLanguage = "fi"
+disableLanguages = ["en"]
+
+[languages]
+    [languages.fi]
+        languageCode = "fi"
+        title = "Studio FIKA"
+        weight = 1
+
+[menu]
+    [[menu.main]]
+        name = "booking"
+        url = "ajanvaraus/"
+        weight = 1
+
+    [[menu.main]]
+        name = "pricing"
+        url = "hinnasto/"
+        weight = 2
+
+    [[menu.main]]
+        name = "team"
+        url = "tiimi/"
+        weight = 3
+
+    [[menu.main]]
+        name = "contactInfo"
+        url = "yhteystiedot/"
+        weight = 4
+
+[params]
+    [params.theme]
+        default = "light"
+    [params.mainNavigation]
+        logo = "assets/images/logo/logo_black_fika_only.svg"
+    [params.footer]
+        logo = "assets/images/logo/logo_white_gold.svg"
+    [params.contactInfo]
+        tel = "+358 41 3318 130"
+        email = "info@studiofika.fi"
+        streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
+        companyId = "3229112-1"
+    [[params.socialMedia]]
+        name = "Instagram"
+        icon = "instagram"
+        profile = "fikalahti"
+        url = "https://www.instagram.com/fikalahti/"
+    [[params.socialMedia]]
+        name = "Facebook"
+        icon = "facebook"
+        profile = "Studio FIKA"
+        url = "https://www.facebook.com/Studio-FIKA-102839872150205/"
+    [[params.personnel]]
+        image = "images/personnel/johanna.jpeg"
+        name = "Johanna"
+        title = "Blonde Specialist, Balayage"
+        introduction = "johannaIntro"
+        instagram = ""
+    [[params.personnel]]
+        image = "images/personnel/mira.jpeg"
+        name = "Mira"
+        title = "Parturi-kampaaja"
+        introduction = "miraIntro"
+        instagram = ""
+    [[params.personnel]]
+        image = "images/personnel/miia.jpeg"
+        name = "Miia"
+        title = "Parturi-kampaaja"
+        introduction = "miiaIntro"
+        instagram = ""
+
+[imaging]
+    quality = 75
+
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true

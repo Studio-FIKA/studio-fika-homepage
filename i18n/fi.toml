@@ -1,0 +1,89 @@
+# Navigation
+
+[mainNavigation]
+    other = "Päänavigaatio"
+
+[footerNavigation]
+    other = "Alatunnisteen navigaatio"
+
+[toggleNavigation]
+    other = "Avaa / sulje navigaatio"
+
+[frontPage]
+    other = "Etusivu"
+
+[booking]
+    other = "Ajanvaraus"
+
+[pricing]
+    other = "Hinnasto"
+
+[team]
+    other = "Tiimi"
+
+[contactInfo]
+    other = "Yhteystiedot"
+
+# Personnel introductions
+
+[johannaIntro]
+    other = "Johanna on erikoistunut pitkien ja extrapitkien hiusten vaalennus- ja raidoitustekniikoihin. Hänen käsissään saat upean näyttävän värin ja hyvin hoidetut ja leikatut hiukset. Johanna suosittelee työssään jokaiselle värjäysasiakkaalle Olaplexia, jotta hiukset pysyisivät terveenä myös värikäsittelyn jälkeen."
+
+[miraIntro]
+    other = "Miralta luonnistuu erityisesti niin pitkän hiuksen raidat kuin moniväritkin erilaisin tekniikoin. Mira on aina iloinen ja helposti lähestyttävä asiakaspalvelija. Hän pitää kehitystä tärkeänä urallaan ja kouluttautuu mielellään."
+
+[miiaIntro]
+    other = "Miian käsissä onnistuu niin monivärit, ihanat ruskeat kuin vaaleat raitatyötkin. Miia on rauhallinen ja tarkka työssään. Miia on myös kiinnostunut alamme tuotteista ja osaakin suositella juuri sinulle oikeat kotihoitotuotteet!"
+
+# Misc
+
+[contactUs]
+    other = "Ota yhteyttä"
+
+[pageNotFound]
+    other = "Sivua ei löytynyt"
+
+[goToFrontPage]
+    other = "Siirry etusivulle"
+
+[tel]
+    other = "Puhelinnumero"
+
+[email]
+    other = "Sähköpostiosoite"
+
+[streetAddress]
+    other = "Katuosoite"
+
+[companyId]
+    other = "Y-tunnus"
+
+[name]
+    other = "Nimi"
+
+[message]
+    other = "Viesti"
+
+[readMoreAboutOurTeam]
+    other = "Tutustu tiimiimme"
+
+[namePlaceholder]
+    other = "Etunimi Sukunimi"
+
+[emailPlaceholder]
+    other = "nimi@esimerkki.com"
+
+[telPlaceholder]
+    other = "+358 12 3456 789"
+
+[messagePlaceholder]
+    other = "Kirjoita viestisi tähän"
+
+[invalidValue]
+    other = "Virheellinen arvo"
+
+[openHours]
+    other = "Aukioloajat"
+
+[openHoursValue]
+    other = "Auki sopimuksen mukaan,\nmyös iltaisin ja viikonloppuisin"

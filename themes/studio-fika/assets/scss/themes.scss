@@ -1,0 +1,59 @@
+$theme-map: null;
+
+$palette: (
+    'light': (
+        '1': #fef7dc,
+        '2': #e6ddc6,
+        '3': #c2b8a3,
+        '4': #a19882,
+    ),
+);
+
+$theme: (
+    'light': (
+        'color': (
+            'main': map-deep-get($palette, 'light'),
+            'complementary': (
+                '1': #fff,
+                '2': #000,
+            ),
+            'feedback': (
+                'error': #bb0029,
+            ),
+            'gold': (
+                '1': #fac929,
+                '2': #fcf8cd,
+                '3': #f6edbc,
+                '4': #e5d08f,
+                '5': #cba247,
+                '6': #c1912d,
+                '7': #edd586,
+                '8': #fcf8cd,
+            ),
+        ),
+    ),
+);
+
+@mixin themify($target-theme: null) {
+    @if $target-theme == null {
+        @each $t, $m in $theme {
+            $theme-map: $m !global;
+
+            @at-root html[data-theme='#{$t}'] & {
+                @content;
+            }
+        }
+    } @else {
+        $theme-map: map-get($theme, $target-theme) !global;
+
+        @at-root html[data-theme='#{$target-theme}'] & {
+            @content;
+        }
+    }
+
+    $theme-map: null !global;
+}
+
+@function themed($keys...) {
+    @return map-deep-get($theme-map, $keys...);
+}

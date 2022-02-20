@@ -1,0 +1,18 @@
+.location-map {
+    @include fancy-border($pseudo: true);
+
+    position: relative;
+    padding-top: (9 / 16 * 100%);
+
+    @include bp-tablet-xs {
+        padding-top: (9 / 32 * 100%);
+    }
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

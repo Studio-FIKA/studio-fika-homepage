@@ -1,0 +1,54 @@
+{{ $sizes := default (
+    slice
+    (slice 320 320)
+    (slice 425 425)
+    (slice 720 720)
+    (slice 900 900)
+    (slice 1200 1200)
+    (slice 1600 1600)
+    (slice 1920 1920)
+    (slice 2560 2560)
+    (slice 3840 3840)
+) .sizes }}
+
+{{ $originalImg := resources.Get .src }}
+{{ $format := default "webp" .format }}
+{{ $loading := default "lazy" .loading }}
+{{ $convertedOriginalImg := $originalImg.Resize (print $originalImg.Width "x" $originalImg.Height " " $format) }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "srcset" slice }}
+{{ $scratch.Set "sizes" slice }}
+{{ $scratch.Set "processedImgs" slice }}
+
+{{ range $index, $size := $sizes }}
+    {{ $bp := index $size 0 }}
+    {{ $width := index $size 1 }}
+    {{ $height := default (int (math.Round (mul (div (float $width) (float $originalImg.Width)) (float $originalImg.Height)))) (index $size 2) }}
+
+    {{ if gt $originalImg.Width $width }}
+        {{ $scratch.Set "current" ($originalImg.Fill (print (string $width) "x" (string $height) " " $format)) }}
+    {{ else }}
+        {{ $scratch.Set "current" $convertedOriginalImg }}
+    {{ end }}
+
+    {{ $processed := $scratch.Get "current" }}
+
+    {{ $scratch.Set "srcset" ((slice (print $processed.RelPermalink " " $processed.Width "w")) | append ($scratch.Get "srcset")) }}
+
+    {{ if eq $index 0 }}
+        {{ $scratch.Add "sizes" (slice (print $processed.Width "px")) }}
+    {{ else }}
+        {{ $scratch.Set "sizes" ((slice (print "(min-width: " (div $bp 16) "rem) " $processed.Width "px")) | append ($scratch.Get "sizes")) }}
+    {{ end }}
+
+    {{ $scratch.Add "processedImgs" $processed }}
+{{ end }}
+
+{{ $srcsetStr := delimit ($scratch.Get "srcset") ", " }}
+{{ $sizesStr := delimit ($scratch.Get "sizes") ", " }}
+
+{{ $processed := $scratch.Get "processedImgs" }}
+{{ $fallback := index $processed (int (math.Floor (div (len $processed) 2))) }}
+
+<img srcset="{{- $srcsetStr -}}" sizes="{{- $sizesStr -}}" src="{{- $fallback.RelPermalink -}}" alt="{{- .alt -}}" loading="{{- $loading -}}" />
