@@ -15,31 +15,36 @@
     [headers.values]
         cache-control = '''
         public,
-        max-age=31536000'''
+        max-age=31536000,
+        immutable'''
 [[headers]]
     for = "*.css"
     [headers.values]
         cache-control = '''
         public,
-        max-age=31536000'''
+        max-age=31536000,
+        immutable'''
 [[headers]]
     for = "*.webp"
     [headers.values]
         cache-control = '''
         public,
-        max-age=31536000'''
+        max-age=31536000,
+        immutable'''
 [[headers]]
     for = "*.png"
     [headers.values]
         cache-control = '''
         public,
-        max-age=31536000'''
+        max-age=31536000,
+        immutable'''
 [[headers]]
     for = "*.ttf"
     [headers.values]
         cache-control = '''
         public,
-        max-age=31536000'''
+        max-age=31536000,
+        immutable'''
 [[headers]]
     for = "*.webmanifest"
     [headers.values]
