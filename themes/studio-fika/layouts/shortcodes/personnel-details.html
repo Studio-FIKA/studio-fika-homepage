@@ -14,10 +14,11 @@
                         "alt" ($person.name | safeHTML)
                         "sizes" (
                             slice
-                            (slice 320 256 256)
+                            (slice 320 224 224)
+                            (slice 480 256 256)
                             (slice 768 160 160)
-                            (slice 2560 211 211)
-                            (slice 3840 314 314)
+                            (slice 2560 213 213)
+                            (slice 3840 320 320)
                         )
                         "loading" (cond (eq $index 0) "eager" "lazy")
                     )
