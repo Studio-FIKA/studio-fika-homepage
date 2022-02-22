@@ -1,6 +1,7 @@
 theme = "studio-fika"
 defaultContentLanguage = "fi"
 disableLanguages = ["en"]
+disableKinds = ["taxonomy", "term"]
 
 [languages]
     [languages.fi]
