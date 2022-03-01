@@ -23,7 +23,7 @@ npm ci
 #### Preparing Husky
 
 Husky is setup to run a pre-commit Git hook that runs `eslint` for your code
-before a commit.
+before a commit:
 
 ```sh
 npm run prepare
@@ -31,16 +31,36 @@ npm run prepare
 
 ### Running development server
 
+#### Docker
+
+Currently `docker-compose.yml` is configured to always use the latest available Hugo version.
+
+Remember to start Docker, e.g. on Fedora (35) (depends on your configuration of course):
+
+```sh
+sudo systemctl start docker
+```
+
+And then run `docker-compose` in the root of the project:
+
+```sh
+sudo docker-compose up
+```
+
+#### With Hugo CLI directly
+
+Via NPM:
+
 ```sh
 npm run dev
 ```
 
 Or alternatively directly with Hugo CLI as using the npm script can leave the
 Hugo server running in the background after a crash in which case you'd need to
-go through some extra trouble to have it shut down).
+go through some extra trouble to have it shut down):
 
 ```sh
-hugo server -D
+hugo server
 ```
 
 ## Useful resources
