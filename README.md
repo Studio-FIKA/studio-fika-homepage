@@ -4,6 +4,12 @@ This Git-repository holds the source code for
 [Studio FIKA's homepage](https://studiofika.fi/) and it is a
 [Hugo](https://gohugo.io/) project.
 
+## Hugo
+
+### Version
+
+Currently the project has been configured to use Hugo version 0.92.0 (extended). This version is used by `docker-compose` and Netlify builds. `gh-pages.yml` is currently not in use but its Hugo version should be kept in sync as well.
+
 ## Development
 
 ### Preparing development environment
@@ -32,8 +38,6 @@ npm run prepare
 ### Running development server
 
 #### Docker
-
-Currently `docker-compose.yml` is configured to always use the latest available Hugo version.
 
 Remember to start Docker, e.g. on Fedora (35) (depends on your configuration of course):
 
