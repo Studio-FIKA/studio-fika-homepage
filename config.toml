@@ -57,19 +57,19 @@ disableKinds = ["taxonomy", "term"]
         name = "Johanna"
         title = "Blonde Specialist, Balayage"
         introduction = "johannaIntro"
-        instagram = ""
+        instagram = "https://www.instagram.com/fika.johanna/"
     [[params.personnel]]
         image = "images/personnel/mira.jpeg"
         name = "Mira"
         title = "Parturi-kampaaja"
         introduction = "miraIntro"
-        instagram = ""
+        instagram = "https://www.instagram.com/fika.mira/"
     [[params.personnel]]
         image = "images/personnel/miia.jpeg"
         name = "Miia"
         title = "Parturi-kampaaja"
         introduction = "miiaIntro"
-        instagram = ""
+        instagram = "https://www.instagram.com/fika.miia/"
 
 [imaging]
     quality = 75

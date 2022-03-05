@@ -2,9 +2,9 @@
     {{ range $index, $person := .Site.Params.personnel }}
     <article class="personnel-details__person">
         <header class="personnel-details__person-header">
-            <h1 class="personnel-details__person-name">
+            <h2 class="personnel-details__person-name">
                 {{- $person.name | safeHTML -}}
-            </h1>
+            </h2>
             <div class="personnel-details__person-image">
                 {{
                     partial "img" (

@@ -116,17 +116,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: -16px;
-
-        @include bp-tablet-xs {
-            margin-bottom: 0;
-        }
     }
 
     &__person-social-media {
         font-size: 24px;
-        margin: 8px;
-        padding: 8px;
+        margin: 4px;
+        padding: 4px;
     }
 
     &__person-intro {

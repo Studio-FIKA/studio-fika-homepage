@@ -13,11 +13,11 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Parturipalvelut
 
-| Palvelu                | Hinta |
-|:-----------------------|------:|
-| Parturileikkaus        |  30&nbsp;€ |
-| Parturileikkaus 45 min |  36&nbsp;€ |
-| Koneajo                |  18&nbsp;€ |
+| Palvelu                |     Hinta |
+|:-----------------------|----------:|
+| Parturileikkaus        | 30&nbsp;€ |
+| Parturileikkaus 45 min | 36&nbsp;€ |
+| Koneajo                | 18&nbsp;€ |
 
 </section>
 
@@ -25,12 +25,12 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Kampaamopalvelut
 
-| Palvelu              | Hinta |
-|:---------------------|------:|
-| Kampaamoleikkaus     |  40&nbsp;€ |
-| Mallinmuutosleikkaus |  52&nbsp;€ |
-| Otsahiusten leikkaus |  15&nbsp;€ |
-| Tasausleikkaus       |  30&nbsp;€ |
+| Palvelu              |     Hinta |
+|:---------------------|----------:|
+| Kampaamoleikkaus     | 40&nbsp;€ |
+| Mallinmuutosleikkaus | 52&nbsp;€ |
+| Otsahiusten leikkaus | 15&nbsp;€ |
+| Tasausleikkaus       | 30&nbsp;€ |
 
 </section>
 
@@ -38,8 +38,8 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Värjäykset
 
-| Palvelu                                   |    Hinta |
-|:------------------------------------------|---------:|
+| Palvelu                                   |         Hinta |
+|:------------------------------------------|--------------:|
 | Tyviväri                                  |  78,50&nbsp;€ |
 | Tyviväri ja leikkaus                      |  98,50&nbsp;€ |
 | Väri (lyhyet)                             |  85,50&nbsp;€ |
