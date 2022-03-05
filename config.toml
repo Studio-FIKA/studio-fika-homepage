@@ -38,7 +38,7 @@ disableKinds = ["taxonomy", "term"]
     [params.footer]
         logo = "assets/images/logo/logo_white_gold.svg"
     [params.contactInfo]
-        tel = "+358 41 3318 130"
+        tel = "+358 41 3118130"
         email = "info@studiofika.fi"
         streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
         companyId = "3229112-1"
