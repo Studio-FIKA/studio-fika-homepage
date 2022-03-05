@@ -1,7 +1,7 @@
 <div class="personnel-details">
     {{ range $index, $person := .Site.Params.personnel }}
-    <article class="personnel-details__person">
-        <header class="personnel-details__person-header">
+    <div class="personnel-details__person">
+        <div class="personnel-details__person-header">
             <h2 class="personnel-details__person-name">
                 {{- $person.name | safeHTML -}}
             </h2>
@@ -41,10 +41,10 @@
                 </div>
                 {{ end }}
             </div>
-        </header>
+        </div>
         <p class="personnel-details__person-intro">
             {{- i18n $person.introduction | safeHTML -}}
         </p>
-    </article>
+    </div>
     {{ end }}
 </div>

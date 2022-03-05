@@ -5,10 +5,6 @@ description: Studio Fikan tiimi kostuu asiantuntijoista, jotka ovat erikoistunee
 
 # Tiimi
 
-<section>
-
 {{< container maxWidth="tablet-md" padding="md" margin="lg" >}}
 {{< personnel-details >}}
 {{< /container >}}
-
-</section>
