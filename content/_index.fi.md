@@ -2,7 +2,7 @@
 title: Parturi-kampaamo Lahti
 description: Studio FIKA on parturi-kampaamo Lahden keskustassa osoitteessa Vesijärvenkatu 34, 15140 Lahti. Tuotevalikoimaan lukeutuu suositut Four Reasons Pro ja OLAPLEX. Varaa parturi tai kampaaja, nettiajanvaraus 24/7.
 hero: default
-heroImage: images/shop/sofa_1.jpeg
+heroImage: images/shop/sofa_1.JPG
 heroLogo: assets/images/logo/logo_white_gold.svg
 heroHeader: Parturi-kampaamo Studio FIKA
 ---

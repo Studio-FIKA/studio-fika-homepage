@@ -67,7 +67,7 @@ disableKinds = ["taxonomy", "term"]
         introduction = "miraIntro"
         instagram = "https://www.instagram.com/fika.mira/"
     [[params.personnel]]
-        image = "images/personnel/miia_3.jpeg"
+        image = "images/personnel/miia_5.jpg"
         name = "Miia"
         title = "Parturi-kampaaja"
         introduction = "miiaIntro"
@@ -87,7 +87,7 @@ disableKinds = ["taxonomy", "term"]
         email = "info@studiofika.fi"
 
 [imaging]
-    quality = 75
+    quality = 90
 
 [markup]
     [markup.goldmark.renderer]
