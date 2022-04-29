@@ -1,4 +1,4 @@
-{{ $imageSrc := default "images/image.png" .Params.image }}
+{{ $imageSrc := default "images/social_media/social_media_1.png" .Params.image }}
 {{ $image := resources.Get $imageSrc }}
 {{ $imageFormat := "png" }}
 {{ $processedImage := $image.Fill (print "1200x630 Smart q100 " $imageFormat) }}

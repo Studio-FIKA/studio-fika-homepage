@@ -88,6 +88,14 @@
                 margin-bottom: 80px;
             }
         }
+
+        &-xxl {
+            margin-bottom: 80px;
+
+            @include bp-tablet-xs {
+                margin-bottom: 128px;
+            }
+        }
     }
 
     &--align-text {

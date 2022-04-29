@@ -16,9 +16,9 @@
                             slice
                             (slice 320 224 224)
                             (slice 480 256 256)
-                            (slice 768 160 160)
-                            (slice 2560 213 213)
-                            (slice 3840 320 320)
+                            (slice 768 190 190)
+                            (slice 2560 253 253)
+                            (slice 3840 380 380)
                         )
                         "loading" (cond (eq $index 0) "eager" "lazy")
                     )
@@ -33,9 +33,15 @@
                 {{ if $person.instagram }}
                 <div class="personnel-details__person-social-links">
                 {{ if $person.instagram }}
-                    <a href="{{- $person.instagram | safeHTML -}}" target="_blank" rel="noopener noreferrer" class="icon personnel-details__person-social-media">
+                    <a href="{{- $person.instagram | safeHTML -}}" target="_blank" rel="noopener noreferrer" class="icon personnel-details__person-social-media" title="Instagram">
                         <span class="vhidden">Instagram</span>
                         {{- (print "themes/studio-fika/assets/icons/instagram.svg") | readFile | safeHTML -}}
+                    </a>
+                {{ end }}
+                {{ if $person.email }}
+                    <a href="mailto:{{- $person.email | safeHTML -}}" target="_blank" rel="noopener noreferrer" class="icon personnel-details__person-social-media" title="{{- $person.email | safeHTML -}}">
+                        <span class="vhidden">{{- i18n "email" | safeHTML -}}</span>
+                        {{- (print "themes/studio-fika/assets/icons/mail.svg") | readFile | safeHTML -}}
                     </a>
                 {{ end }}
                 </div>

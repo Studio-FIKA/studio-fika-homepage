@@ -63,7 +63,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
-## Vaalennukset/Raidat
+## Vaalennukset ja raidat
 
 | Palvelu                                 |         Hinta |
 |:----------------------------------------|--------------:|
@@ -84,28 +84,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 | Raidat extra pitkät hiukset             | 160,50&nbsp;€ |
 | Raidat ja leikkaus extra pitkät hiukset | 180,50&nbsp;€ |
 
-</section>
-
-<section>
-
-## Lasten palvelut
-
-| Palvelu                |     Hinta |
-|:-----------------------|----------:|
-| Lasten hiustenleikkaus | 23&nbsp;€ |
-| Lasten mallinmuutos    | 30&nbsp;€ |
-
-</section>
-
-<section>
-
-## Ripset/kulmat
-
-| Palvelu                                |     Hinta |
-|:---------------------------------------|----------:|
-| Ripsien värjäys                        | 16&nbsp;€ |
-| Kulmien värjäys ja muotoilu            | 16&nbsp;€ |
-| Ripsien ja kulmien värjäys ja muotoilu | 26&nbsp;€ |
+*Sisältävät sävytyksen*
 
 </section>
 
@@ -146,6 +125,90 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 | Permanentti ja leikkaus (lyhyet)      |  85&nbsp;€ |
 | Permanentti ja leikkaus (keskipitkät) |  95&nbsp;€ |
 | Permanentti ja leikkaus (pitkät)      | 120&nbsp;€ |
+
+</section>
+
+<section>
+
+## Lasten palvelut
+
+| Palvelu                |     Hinta |
+|:-----------------------|----------:|
+| Lasten hiustenleikkaus | 23&nbsp;€ |
+| Lasten mallinmuutos    | 30&nbsp;€ |
+
+*Alle 12-vuotiaat*
+
+</section>
+
+<section>
+
+## Ripset ja kulmat
+
+| Palvelu                                |      Hinta |
+|:---------------------------------------|-----------:|
+| Ripsien värjäys                        |  16&nbsp;€ |
+| Kulmien värjäys ja muotoilu            |  16&nbsp;€ |
+| Ripsien ja kulmien värjäys ja muotoilu |  26&nbsp;€ |
+| Ripsienpidennys klassinen              |  60&nbsp;€ |
+| Ripsihuolto klassinen                  |  45&nbsp;€ |
+| Pikahuolto klassinen                   |  40&nbsp;€ |
+| Pidennysten poisto                     |  20&nbsp;€ |
+| Yumi brows                             |  55&nbsp;€ |
+| Yumi lashes                            |  70&nbsp;€ |
+| Yumi lashes ja Yumi brows              | 100&nbsp;€ |
+
+</section>
+
+<section>
+
+## Ihokarvojen poisto
+
+| Palvelu                |     Hinta |
+|:-----------------------|----------:|
+| Säärten sokerointi     | 35&nbsp;€ |
+| Kainaloiden sokerointi | 25&nbsp;€ |
+| Reisien sokerointi     | 35&nbsp;€ |
+| Käsivarsien sokerointi | 35&nbsp;€ |
+| Sokerointipaketti      | 65&nbsp;€ |
+
+</section>
+
+
+
+<section>
+
+## Kasvohoidot
+
+| Palvelu                  |     Hinta |
+|:-------------------------|----------:|
+| Kasvohoito               | 70&nbsp;€ |
+| Mekaaninen ihonpuhdistus | 60&nbsp;€ |
+| Mekaaninen ihonpuhdistus | 45&nbsp;€ |
+| Kiinteyttävä kasvohoito  | 70&nbsp;€ |
+| Kasvohieronta            | 35&nbsp;€ |
+
+</section>
+
+<section>
+
+## Jalkahoidot
+
+| Palvelu        |     Hinta |
+|:---------------|----------:|
+| Jalkahoito     | 60&nbsp;€ |
+| Spa-jalkahoito | 65&nbsp;€ |
+| Jalkahieronta  | 25&nbsp;€ |
+
+</section>
+
+<section>
+
+## Kädet ja kynnet
+
+| Palvelu        |     Hinta |
+|:---------------|----------:|
+| Perusmanikyyri | 30&nbsp;€ |
 
 </section>
 

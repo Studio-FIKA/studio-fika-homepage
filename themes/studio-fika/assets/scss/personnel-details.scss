@@ -2,7 +2,7 @@
     $block: &;
 
     @include bp-tablet-xs {
-        margin: 96px 0;
+        margin: 128px 0;
     }
 
     &__person {
@@ -29,7 +29,7 @@
             margin-top: 32px;
 
             @include bp-tablet-xs {
-                margin-top: 96px;
+                margin-top: 128px;
             }
         }
     }
@@ -41,7 +41,7 @@
 
         @include bp-tablet-xs {
             position: relative;
-            flex: 0 0 160px;
+            flex: 0 0 190px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -109,7 +109,6 @@
 
         @include bp-tablet-xs {
             padding-top: 16px;
-            font-size: 16px;
         }
     }
 
@@ -120,7 +119,7 @@
     }
 
     &__person-social-media {
-        font-size: 24px;
+        font-size: 18px;
         margin: 4px;
         padding: 4px;
     }
@@ -140,11 +139,33 @@
 
         @at-root #{$block}__person:last-child & {
             border-bottom: 0;
+
+            @include bp-tablet-xs {
+                border-bottom: 4px dotted;
+
+                @include safari-only {
+                    border-bottom: 6px double;
+                }
+
+                @include themify {
+                    border-color: themed('color', 'main', '2');
+                }
+            }
         }
 
         @include bp-tablet-xs {
             padding: 1em 0 1em;
+            border-top: 4px dotted;
             font-family: map-get($font, 'header');
+            font-size: 18px;
+
+            @include safari-only {
+                border-top: 6px double;
+            }
+        }
+
+        a {
+            font-weight: 600;
         }
     }
 }

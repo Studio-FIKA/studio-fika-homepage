@@ -21,7 +21,7 @@
     }
 
     &__name {
-        font-size: clamp(0vw, 5vw, 16px);
+        font-size: clamp(0vw, 4.4vw, 16px);
         font-family: map-get($font, 'header');
         font-weight: 400;
         line-height: 1;
@@ -72,5 +72,9 @@
 
     &__read-more {
         @include cta;
+
+        @include bp-tablet-xs {
+            font-size: 18px;
+        }
     }
 }

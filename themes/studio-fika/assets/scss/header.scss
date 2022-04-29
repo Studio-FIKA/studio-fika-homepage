@@ -27,7 +27,7 @@
             h1,
             #{$level1} {
                 font-size: 32px;
-                margin: 24px 0;
+                margin: 32px 0;
 
                 @include bp-tablet-xs {
                     font-size: 48px;
@@ -44,7 +44,7 @@
             h2,
             #{$level2} {
                 font-size: 24px;
-                margin: 18px 0;
+                margin: 24px 0;
 
                 @include bp-tablet-xs {
                     font-size: 36px;

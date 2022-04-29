@@ -42,6 +42,8 @@ disableKinds = ["taxonomy", "term"]
         email = "info@studiofika.fi"
         streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
         companyId = "3229112-1"
+    [params.creditsInfo]
+        photographer =  "Anu Jalava"
     [[params.socialMedia]]
         name = "Instagram"
         icon = "instagram"
@@ -53,23 +55,36 @@ disableKinds = ["taxonomy", "term"]
         profile = "Studio FIKA"
         url = "https://www.facebook.com/Studio-FIKA-102839872150205/"
     [[params.personnel]]
-        image = "images/personnel/johanna.jpeg"
+        image = "images/personnel/johanna_2.jpeg"
         name = "Johanna"
         title = "Blonde Specialist, Balayage"
         introduction = "johannaIntro"
         instagram = "https://www.instagram.com/fika.johanna/"
     [[params.personnel]]
-        image = "images/personnel/mira.jpeg"
+        image = "images/personnel/mira_3.jpeg"
         name = "Mira"
         title = "Parturi-kampaaja"
         introduction = "miraIntro"
         instagram = "https://www.instagram.com/fika.mira/"
     [[params.personnel]]
-        image = "images/personnel/miia.jpeg"
+        image = "images/personnel/miia_3.jpeg"
         name = "Miia"
         title = "Parturi-kampaaja"
         introduction = "miiaIntro"
         instagram = "https://www.instagram.com/fika.miia/"
+    [[params.personnel]]
+        image = "images/personnel/sara_1.jpg"
+        name = "Sara"
+        title = "Kosmetologi"
+        introduction = "saraIntro"
+        instagram = "https://www.instagram.com/fika.sara/"
+    [[params.personnel]]
+        image = "images/personnel/johanna_k_1.jpg"
+        name = "Johanna K"
+        title = "Meikkaaja"
+        introduction = "johannaKIntro"
+        instagram = "https://www.instagram.com/johannakotromakeup/"
+        email = "info@studiofika.fi"
 
 [imaging]
     quality = 75
