@@ -77,7 +77,7 @@ disableKinds = ["taxonomy", "term"]
         name = "Sara"
         title = "Kosmetologi"
         introduction = "saraIntro"
-        instagram = "https://www.instagram.com/fika.sara/"
+        instagram = "https://www.instagram.com/fika.sarahuovila/"
     [[params.personnel]]
         image = "images/personnel/johanna_k_1.jpg"
         name = "Johanna K"
