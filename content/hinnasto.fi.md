@@ -118,7 +118,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
-## Hiustenpidennykset ja permanentit
+## Pidennykset ja permanentit
 
 | Palvelu                               |      Hinta |
 |:--------------------------------------|-----------:|
