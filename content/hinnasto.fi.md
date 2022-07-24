@@ -219,12 +219,18 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 <section>
 
 {{% container maxWidth="tablet-xxl" padding="md" margin="lg" %}}
+{{< typography type="emphasized" size="md" >}}
 
 Hinnat sisältävät alv 24%. Pidätämme oikeudet hinnan muutoksiin. Peruutuksen on
 tapahduttava viimeistään 24h ennen varattua aikaa. Saman vuorokauden aikana
 peruutetuista 50% ja peruuttamattomista ajoista yrityksellä on oikeus periä 100%
 palvelun hinnasta. Reklamaatioaika on 7 vuorokautta.
 
+{{< cta type="solid" href="ajanvaraus/" >}}
+Varaa aika
+{{< /cta >}}
+
+{{< /typography >}}
 {{% /container %}}
 
 </section>
