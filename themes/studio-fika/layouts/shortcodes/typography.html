@@ -1,4 +1,4 @@
-{{ $tag := default "p" (.Get "tag") }}
+{{ $tag := default "div" (.Get "tag") }}
 
 {{ $scratch := newScratch }}
 
@@ -16,11 +16,7 @@
 
 {{ $scratch.Add "classes" ($scratch.Get "addClasses") }}
 
-{{ if eq $tag "p" }}
-<p class="{{- $scratch.Get "classes" -}}">
-    {{- .Inner -}}
-</p>
-{{ else if eq $tag "div" }}
+{{ if eq $tag "div" }}
 <div class="{{- $scratch.Get "classes" -}}">
     {{- .Inner -}}
 </div>

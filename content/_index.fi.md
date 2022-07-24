@@ -14,7 +14,7 @@ heroHeader: Parturi-kampaamo Studio FIKA
 
 # Parturi-kampaamo Studio FIKA
 
-{{< typography tag="div" type="emphasized" size="md" >}}
+{{< typography type="emphasized" size="md" >}}
 
 Lahden keskustaan juuri avattu parturi-kampaamo, jossa tähtenä olet sinä. Rennon
 ilmapiirin takaa paljastuu kolme oman alansa ammattilaista, joiden kasvutarina
@@ -38,7 +38,6 @@ Varaa aika
 {{< /cta >}}
 
 {{< /typography >}}
-
 
 {{< /decorated >}}
 {{% /container %}}
