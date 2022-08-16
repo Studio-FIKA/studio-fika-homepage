@@ -13,15 +13,15 @@
         text-align: center;
         padding-top: 24px;
         padding-left: 24px;
-        flex: 0 0 (100 / 3 * 1%);
+        flex: 0 0 (100 / 2 * 1%);
 
-        @include bp-tablet-xs {
-            flex: 0 0 (100 / 3 * 1%);
+        @include bp-mobile-md {
+            flex: 0 0 (100 / 4 * 1%);
         }
     }
 
     &__name {
-        font-size: clamp(0vw, 4.6vw, 20px);
+        font-size: clamp(0vw, 5vw, 20px);
         font-family: map-get($font, 'header');
         font-weight: 600;
         line-height: 1;
@@ -30,6 +30,10 @@
 
         @include themify {
             color: themed('color', 'main', '4');
+        }
+
+        @include bp-mobile-md {
+            font-size: clamp(0vw, 3.8vw, 20px);
         }
 
         @include bp-tablet-xs {
