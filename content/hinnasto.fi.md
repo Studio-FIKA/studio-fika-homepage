@@ -27,8 +27,8 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu              |     Hinta |
 |:---------------------|----------:|
-| Kampaamoleikkaus     | 40&nbsp;€ |
-| Mallinmuutosleikkaus | 52&nbsp;€ |
+| Kampaamoleikkaus     | 42&nbsp;€ |
+| Mallinmuutosleikkaus | 55&nbsp;€ |
 | Otsahiusten leikkaus | 15&nbsp;€ |
 | Tasausleikkaus       | 30&nbsp;€ |
 
@@ -38,26 +38,30 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Värjäykset
 
-| Palvelu                                   |         Hinta |
-|:------------------------------------------|--------------:|
-| Tyviväri                                  |  78,50&nbsp;€ |
-| Tyviväri ja leikkaus                      |  98,50&nbsp;€ |
-| Väri (lyhyet)                             |  85,50&nbsp;€ |
-| Väri ja leikkaus (lyhyet)                 | 105,50&nbsp;€ |
-| Väri (keskipitkät)                        |  95,50&nbsp;€ |
-| Väri ja leikkaus (keskipitkät)            | 115,50&nbsp;€ |
-| Väri (pitkät)                             | 110,50&nbsp;€ |
-| Väri ja leikkaus (pitkät)                 | 130,50&nbsp;€ |
-| Väri (extrapitkät)                        | 135,50&nbsp;€ |
-| Väri ja leikkaus (extrapitkät)            | 155,50&nbsp;€ |
-| Moniväri lyhyet hiukset                   |  95,50&nbsp;€ |
-| Moniväri ja leikkaus lyhyet hiukset       | 115,50&nbsp;€ |
-| Moniväri keskipitkät hiukset              | 105,50&nbsp;€ |
-| Moniväri ja leikkaus keskipitkät hiukset  | 125,50&nbsp;€ |
-| Moniväri pitkät hiukset                   | 120,50&nbsp;€ |
-| Moniväri ja leikkaus pitkät hiukset       | 140,50&nbsp;€ |
-| Moniväri extra pitkät hiukset             | 140,50&nbsp;€ |
-| Moniväri ja leikkaus extra pitkät hiukset | 160,50&nbsp;€ |
+| Palvelu                                         |         Hinta |
+|:------------------------------------------------|--------------:|
+| Tyviväri                                        |  81,50&nbsp;€ |
+| Tyviväri ja leikkaus                            | 101,50&nbsp;€ |
+| Väri (lyhyet)                                   |  88,50&nbsp;€ |
+| Väri ja leikkaus (lyhyet)                       | 108,50&nbsp;€ |
+| Väri (keskipitkät)                              |  98,50&nbsp;€ |
+| Väri ja leikkaus (keskipitkät)                  | 118,50&nbsp;€ |
+| Väri (pitkät)                                   | 115,50&nbsp;€ |
+| Väri ja leikkaus (pitkät)                       | 135,50&nbsp;€ |
+| Väri (extrapitkät)                              | 125,50&nbsp;€ |
+| Väri ja leikkaus (extrapitkät)                  | 145,50&nbsp;€ |
+| Väri extra extra pitkät hiukset                 | 135,50&nbsp;€ |
+| Väri ja leikkaus extra extra pitkät hiukset     | 155,50&nbsp;€ |
+| Moniväri lyhyet hiukset                         |  98,50&nbsp;€ |
+| Moniväri ja leikkaus lyhyet hiukset             | 118,50&nbsp;€ |
+| Moniväri keskipitkät hiukset                    | 108,50&nbsp;€ |
+| Moniväri ja leikkaus keskipitkät hiukset        | 128,50&nbsp;€ |
+| Moniväri pitkät hiukset                         | 128,50&nbsp;€ |
+| Moniväri ja leikkaus pitkät hiukset             | 148,50&nbsp;€ |
+| Moniväri extra pitkät hiukset                   | 148,50&nbsp;€ |
+| Moniväri ja leikkaus extra pitkät hiukset       | 168,50&nbsp;€ |
+| Moniväri extra extra pitkät hiukset             | 168,50&nbsp;€ |
+| Moniväri ja leikkaus extra extra pitkät hiukset | 188,50&nbsp;€ |
 
 </section>
 
@@ -65,24 +69,30 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Vaalennukset ja raidat
 
-| Palvelu                                 |         Hinta |
-|:----------------------------------------|--------------:|
-| Tyvivaalennus                           |  90,50&nbsp;€ |
-| Tyvivaalennus + hiustenleikkaus         | 110,50&nbsp;€ |
-| Vaalennus lyhyet hiukset                | 100,50&nbsp;€ |
-| Vaalennus ja leikkaus lyhyet hiukset    | 120,50&nbsp;€ |
-| Vaalennus keskipitkät hiukset           | 120,50&nbsp;€ |
-| Vaalennus ja leikkaus pp.               | 140,50&nbsp;€ |
-| Vaalennus pitkät hiukset                | 140,50&nbsp;€ |
-| Vaalennus ja leikkaus pitkät hiukset    | 160,50&nbsp;€ |
-| Raidat lyhyet hiukset                   |  95,50&nbsp;€ |
-| Raidat ja leikkaus lyhyet hiukset       | 115,50&nbsp;€ |
-| Raidat keskipitkät hiukset              | 110,50&nbsp;€ |
-| Raidat ja leikkaus keskipitkät hiukset  | 130,50&nbsp;€ |
-| Raidat pitkät hiukset                   | 130,50&nbsp;€ |
-| Raidat ja leikkaus pitkät hiukset       | 150,50&nbsp;€ |
-| Raidat extra pitkät hiukset             | 160,50&nbsp;€ |
-| Raidat ja leikkaus extra pitkät hiukset | 180,50&nbsp;€ |
+| Palvelu                                       |         Hinta |
+|:----------------------------------------------|--------------:|
+| Tyvivaalennus                                 |  95,50&nbsp;€ |
+| Tyvivaalennus + hiustenleikkaus               | 115,50&nbsp;€ |
+| Vaalennus lyhyet hiukset                      | 110,50&nbsp;€ |
+| Vaalennus ja leikkaus lyhyet hiukset          | 130,50&nbsp;€ |
+| Vaalennus keskipitkät hiukset                 | 130,50&nbsp;€ |
+| Vaalennus ja leikkaus pp.                     | 150,50&nbsp;€ |
+| Vaalennus pitkät hiukset                      | 150,50&nbsp;€ |
+| Vaalennus ja leikkaus pitkät hiukset          | 170,50&nbsp;€ |
+| Vaalennus extra pitkät hiukset                | 180,50&nbsp;€ |
+| Vaalennus extra pitkät hiukset ja leikkaus    |    200&nbsp;€ |
+| Vaalennus extra extra pitkät hiukset          | 200,50&nbsp;€ |
+| Vaalennus extra extra pitkät hiukset + hl     | 220,50&nbsp;€ |
+| Raidat lyhyet hiukset                         | 100,50&nbsp;€ |
+| Raidat ja leikkaus lyhyet hiukset             | 120,50&nbsp;€ |
+| Raidat keskipitkät hiukset                    | 115,50&nbsp;€ |
+| Raidat ja leikkaus keskipitkät hiukset        | 135,50&nbsp;€ |
+| Raidat pitkät hiukset                         | 135,50&nbsp;€ |
+| Raidat ja leikkaus pitkät hiukset             | 155,50&nbsp;€ |
+| Raidat extra pitkät hiukset                   | 160,50&nbsp;€ |
+| Raidat ja leikkaus extra pitkät hiukset       | 180,50&nbsp;€ |
+| Raidat extra extra pitkät hiukset             | 180,50&nbsp;€ |
+| Raidat ja leikkaus extra extra pitkät hiukset | 200,50&nbsp;€ |
 
 *Sisältävät sävytyksen*
 
@@ -94,10 +104,10 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                     |     Hinta |
 |:----------------------------|----------:|
-| Olaplex-hoito (lyhyet)      | 45&nbsp;€ |
-| Olaplex-hoito (keskipitkät) | 50&nbsp;€ |
-| Olaplex-hoito (pitkät)      | 55&nbsp;€ |
-| Olaplex-hoito (extrapitkät) | 60&nbsp;€ |
+| Olaplex-hoito (lyhyet)      | 50&nbsp;€ |
+| Olaplex-hoito (keskipitkät) | 55&nbsp;€ |
+| Olaplex-hoito (pitkät)      | 60&nbsp;€ |
+| Olaplex-hoito (extrapitkät) | 65&nbsp;€ |
 
 </section>
 
@@ -107,10 +117,10 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                |     Hinta |
 |:-----------------------|----------:|
-| Hiustenpesu ja föönaus | 25&nbsp;€ |
-| Pikakampaus            | 25&nbsp;€ |
-| Kiharakampaus          | 30&nbsp;€ |
-| Nutturakampaus         | 60&nbsp;€ |
+| Hiustenpesu ja föönaus | 30&nbsp;€ |
+| Pikakampaus            | 30&nbsp;€ |
+| Kiharakampaus          | 40&nbsp;€ |
+| Nutturakampaus         | 70&nbsp;€ |
 
 *Kampauksien ajanvaraus puhelimitse*
 
@@ -120,11 +130,11 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 ## Pidennykset ja permanentit
 
-| Palvelu                               |      Hinta |
-|:--------------------------------------|-----------:|
-| Permanentti ja leikkaus (lyhyet)      |  85&nbsp;€ |
-| Permanentti ja leikkaus (keskipitkät) |  95&nbsp;€ |
-| Permanentti ja leikkaus (pitkät)      | 120&nbsp;€ |
+| Palvelu                               |         Hinta |
+|:--------------------------------------|--------------:|
+| Permanentti ja leikkaus (lyhyet)      |  89,50&nbsp;€ |
+| Permanentti ja leikkaus (keskipitkät) | 104,50&nbsp;€ |
+| Permanentti ja leikkaus (pitkät)      | 129,50&nbsp;€ |
 
 </section>
 
@@ -147,68 +157,50 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                                |      Hinta |
 |:---------------------------------------|-----------:|
-| Ripsien värjäys                        |  16&nbsp;€ |
-| Kulmien värjäys ja muotoilu            |  16&nbsp;€ |
-| Ripsien ja kulmien värjäys ja muotoilu |  26&nbsp;€ |
-| Ripsienpidennys klassinen              |  60&nbsp;€ |
-| Ripsihuolto klassinen                  |  45&nbsp;€ |
-| Pikahuolto klassinen                   |  40&nbsp;€ |
-| Pidennysten poisto                     |  20&nbsp;€ |
-| Yumi brows                             |  55&nbsp;€ |
-| Yumi lashes                            |  70&nbsp;€ |
-| Yumi lashes ja Yumi brows              | 100&nbsp;€ |
+| Ripsien värjäys                        |  17&nbsp;€ |
+| Kulmien värjäys ja muotoilu            |  18&nbsp;€ |
+| Ripsien ja kulmien värjäys ja muotoilu |  29&nbsp;€ |
+| Ripsienpidennys volyymit               | 100&nbsp;€ |
+| Ripsihuolto volyymi 75min              |  64&nbsp;€ |
+| Ripsihuolto volyymi 60min              |  54&nbsp;€ |
+| Pikahuolto volyymi 45min               |  44&nbsp;€ |
+| Ripsienpidennys klassinen              |  80&nbsp;€ |
+| Ripsihuolto klassinen 60min            |  52&nbsp;€ |
+| Pikahuolto klassinen 45min             |  42&nbsp;€ |
+| Ripsienpidennys hybridi                |  90&nbsp;€ |
+| Ripsihuolto hybridi 75min              |  63&nbsp;€ |
+| Ripsihuolto hybridi 60min              |  53&nbsp;€ |
+| Pikahuolto hybridi 45min               |  43&nbsp;€ |
+| Pidennysten poisto                     |  25&nbsp;€ |
 
 </section>
-
-<section>
-
-## Ihokarvojen poisto
-
-| Palvelu                |     Hinta |
-|:-----------------------|----------:|
-| Säärten sokerointi     | 35&nbsp;€ |
-| Kainaloiden sokerointi | 25&nbsp;€ |
-| Reisien sokerointi     | 35&nbsp;€ |
-| Käsivarsien sokerointi | 35&nbsp;€ |
-| Sokerointipaketti      | 65&nbsp;€ |
-
-</section>
-
-
 
 <section>
 
 ## Kasvohoidot
 
-| Palvelu                  |     Hinta |
-|:-------------------------|----------:|
-| Kasvohoito               | 70&nbsp;€ |
-| Mekaaninen ihonpuhdistus | 60&nbsp;€ |
-| Mekaaninen ihonpuhdistus | 45&nbsp;€ |
-| Kiinteyttävä kasvohoito  | 70&nbsp;€ |
-| Kasvohieronta            | 35&nbsp;€ |
+| Palvelu                              |     Hinta |
+|:-------------------------------------|----------:|
+| Mekaaninen ihonpuhdistus 45min       | 55&nbsp;€ |
+| Payot kasvohoito 90min               | 75&nbsp;€ |
+| Payot happokuorinta kasvohoito 90min | 79&nbsp;€ |
 
 </section>
 
 <section>
 
-## Jalkahoidot
+## Opiskelijatyöt
 
-| Palvelu        |     Hinta |
-|:---------------|----------:|
-| Jalkahoito     | 60&nbsp;€ |
-| Spa-jalkahoito | 65&nbsp;€ |
-| Jalkahieronta  | 25&nbsp;€ |
-
-</section>
-
-<section>
-
-## Kädet ja kynnet
-
-| Palvelu        |     Hinta |
-|:---------------|----------:|
-| Perusmanikyyri | 30&nbsp;€ |
+| Palvelu                           |        Hinta |
+|:----------------------------------|-------------:|
+| Parturileikkaus (opiskelija)      |    20&nbsp;€ |
+| Kampaamoleikkaus (opiskelija)     |    25&nbsp;€ |
+| Väri/Moniväri + hl lyhyet         | 71,10&nbsp;€ |
+| Väri/Moniväri puolipitkä + hl     | 77,10&nbsp;€ |
+| Väri/Moniväri pitkät hiukset + hl | 89,10&nbsp;€ |
+| Raidat lyhyet hiukset + hl        | 73,50&nbsp;€ |
+| Raidat puolipitkät hiukset + hl   | 83,10&nbsp;€ |
+| Raidat pitkät hiukset + hl        | 95,10&nbsp;€ |
 
 </section>
 
