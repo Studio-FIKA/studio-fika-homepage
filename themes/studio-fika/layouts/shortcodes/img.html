@@ -1,15 +1,26 @@
-{{ $sizes := default (
+{{ $sizes := (
     slice
-    (slice 320 320)
-    (slice 425 425)
-    (slice 720 720)
-    (slice 900 200)
-    (slice 1200 1200)
-    (slice 1600 1600)
-    (slice 1920 1920)
-    (slice 2560 2560)
-    (slice 3840 3840)
-) (.Get "sizes") }}
+    (slice 320 (default 320 (.Get "320")))
+    (slice 375 (default 375 (.Get "375")))
+    (slice 480 (default 480 (.Get "480")))
+    (slice 540 (default 540 (.Get "540")))
+    (slice 640 (default 640 (.Get "640")))
+    (slice 720 (default 720 (.Get "720")))
+    (slice 768 (default 768 (.Get "768")))
+    (slice 800 (default 800 (.Get "800")))
+    (slice 900 (default 900 (.Get "900")))
+    (slice 1024 (default 1024 (.Get "1024")))
+    (slice 1080 (default 1080 (.Get "1080")))
+    (slice 1200 (default 1200 (.Get "1200")))
+    (slice 1280 (default 1280 (.Get "1280")))
+    (slice 1366 (default 1366 (.Get "1366")))
+    (slice 1440 (default 1440 (.Get "1440")))
+    (slice 1600 (default 1600 (.Get "1600")))
+    (slice 1920 (default 1920 (.Get "1920")))
+    (slice 2048 (default 2048 (.Get "2048")))
+    (slice 2560 (default 2560 (.Get "2560")))
+    (slice 3840 (default 3840 (.Get "3840")))
+) }}
 
 {{ $originalImg := resources.Get (.Get "src") }}
 {{ $format := default "webp" (.Get "format") }}

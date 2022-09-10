@@ -2,7 +2,7 @@
     $block: &;
 
     @include bp-tablet-xs {
-        margin: 128px 0;
+        margin: 128px 0 160px;
     }
 
     &__person {
@@ -139,9 +139,11 @@
 
         @at-root #{$block}__person:last-child & {
             border-bottom: 0;
+            padding-bottom: 0;
 
             @include bp-tablet-xs {
                 border-bottom: 4px dotted;
+                padding-bottom: 1em;
 
                 @include safari-only {
                     border-bottom: 6px double;

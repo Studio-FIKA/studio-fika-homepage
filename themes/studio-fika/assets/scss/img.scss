@@ -1,0 +1,12 @@
+img {
+    vertical-align: middle;
+}
+
+main {
+    & > .container > img {
+        @include box-shadow-dreamy-soft;
+
+        width: 100%;
+        height: auto;
+    }
+}
