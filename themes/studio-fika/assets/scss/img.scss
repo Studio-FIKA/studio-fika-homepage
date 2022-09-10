@@ -4,7 +4,7 @@ img {
 
 main {
     & > .container > img {
-        @include box-shadow-dreamy-soft;
+        @include fancy-border($use-shadow: true, $outer-width: 2px);
 
         width: 100%;
         height: auto;
