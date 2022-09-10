@@ -16,20 +16,11 @@ heroHeader: Parturi-kampaamo Studio FIKA
 
 {{< typography type="emphasized" size="md" >}}
 
-Lahden keskustaan juuri avattu parturi-kampaamo, jossa tähtenä olet sinä. Rennon
-ilmapiirin takaa paljastuu kolme oman alansa ammattilaista, joiden kasvutarina
-kampaajana on jokaisella erilainen. Säännölliset ja monipuoliset koulutukset
-pitävät työn aina tuoreena, kun aina tulee jotakin uutta opittavaa!
+Me välitämme sinun hiuksien ja ihon kunnosta!
 
-Nykyaikaiset ja toimivat tilat löydät Vesijärvenkadulta, aivan kävelymatkan
-päästä Kauppakeskus Sykkeestä. Tilamme ovat katutasossa ja oven edestä löytyy
-kadunvarsipaikkoja pysäköintiä varten.
+Täyden palvelun kauneuskeskus keskustan välittämässä läheisyydessä, jossa loihditaan upeita lopputuloksia asiakkaille! Hiuspuolelta löydätte kolme intohimoista kampaajaa Johanna, Miia & Mira. Säännölliset ja monipuoliset koulutukset pitävät työn aina tuoreena, kun kokoajan tulee uutta opittavaa!  Meikkauksien parissa häärää taas Johanna K. Hänen penkistä taittuu upeat juhlameikit! Ripsienpidennykset ja hemmottelevat kasvohoidot ovat kosmetologimme Lotan alaa ja hän onkin niissä superlahjakas. Vuosien kokemus alalta näkyy työn jäljessä.
 
-Työssämme käytämme kotimaisia hajusteettomia Simin hiusvärejä sekä
-tuotevalikoimasta löydät niin hajusteettomat tuotteet kuin ihania tuoksuja
-rakastaville suunnatut **Four Reasons Pro** sarjan tuotteet. Lisäksi meillä on
-maailmalla suosion kerännyt **OLAPLEX**, joka suojaa hiuksia käsittelyjen
-yhteydessä!
+Nykyaikaiset ja remontoidut tilat ovat yhdessä kerroksessa ja liikkeessä on helppo liikkua. Virallisia aukioloaikoja ei meillä ole, koska työskentelemme sopimuksen mukaan ma-su!
 
 **Tervetuloa Fikaan!**
 
