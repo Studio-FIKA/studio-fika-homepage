@@ -153,6 +153,27 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
+## Opiskelijatyöt
+
+| Palvelu                           |        Hinta |
+|:----------------------------------|-------------:|
+| Parturileikkaus (opiskelija)      |    20&nbsp;€ |
+| Kampaamoleikkaus (opiskelija)     |    25&nbsp;€ |
+| Väri/Moniväri + hl lyhyet         | 71,10&nbsp;€ |
+| Väri/Moniväri puolipitkä + hl     | 77,10&nbsp;€ |
+| Väri/Moniväri pitkät hiukset + hl | 89,10&nbsp;€ |
+| Raidat lyhyet hiukset + hl        | 73,50&nbsp;€ |
+| Raidat puolipitkät hiukset + hl   | 83,10&nbsp;€ |
+| Raidat pitkät hiukset + hl        | 95,10&nbsp;€ |
+
+</section>
+
+{{< /pricing >}}
+
+{{< pricing >}}
+
+<section>
+
 ## Ripset ja kulmat
 
 | Palvelu                                |      Hinta |
@@ -184,23 +205,6 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 | Mekaaninen ihonpuhdistus 45min       | 55&nbsp;€ |
 | Payot kasvohoito 90min               | 75&nbsp;€ |
 | Payot happokuorinta kasvohoito 90min | 79&nbsp;€ |
-
-</section>
-
-<section>
-
-## Opiskelijatyöt
-
-| Palvelu                           |        Hinta |
-|:----------------------------------|-------------:|
-| Parturileikkaus (opiskelija)      |    20&nbsp;€ |
-| Kampaamoleikkaus (opiskelija)     |    25&nbsp;€ |
-| Väri/Moniväri + hl lyhyet         | 71,10&nbsp;€ |
-| Väri/Moniväri puolipitkä + hl     | 77,10&nbsp;€ |
-| Väri/Moniväri pitkät hiukset + hl | 89,10&nbsp;€ |
-| Raidat lyhyet hiukset + hl        | 73,50&nbsp;€ |
-| Raidat puolipitkät hiukset + hl   | 83,10&nbsp;€ |
-| Raidat pitkät hiukset + hl        | 95,10&nbsp;€ |
 
 </section>
 
