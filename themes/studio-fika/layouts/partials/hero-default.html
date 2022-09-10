@@ -13,9 +13,11 @@
             )
         }}
         {{ end }}
+        {{ if .Params.heroLogo }}
         <div class="hero-default__logo">
             {{- .Params.heroLogo | readFile | safeHTML -}}
         </div>
+        {{ end }}
         <h1 class="vhidden">{{- .Params.heroHeader | safeHTML -}}</h1>
     </div>
 </header>
