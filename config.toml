@@ -79,6 +79,12 @@ disableKinds = ["taxonomy", "term"]
         introduction = "johannaKIntro"
         instagram = "https://www.instagram.com/johannakotromakeup/"
         email = "info@studiofika.fi"
+    [[params.personnel]]
+        image = "images/personnel/lotta_2.jpg"
+        name = "Lotta"
+        title = "Kosmetologi, Ripsiteknikko"
+        introduction = "lottaIntro"
+        instagram = "https://www.instagram.com/fika.lotta/"
 
 [imaging]
     quality = 90

@@ -39,7 +39,7 @@ Varaa aika
 
 ## Fikan tiimi
 
-{{< container maxWidth="mobile-xl" padding="xl" margin="lg" >}}
+{{< container maxWidth="mobile-md" padding="xl" margin="lg" >}}
 {{< personnel >}}
 {{< /container >}}
 
