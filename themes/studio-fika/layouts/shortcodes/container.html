@@ -19,6 +19,10 @@
 {{ $scratch.Add "addClasses" (print " container--align-text-" (.Get "alignText")) }}
 {{ end }}
 
+{{ if .Get "centerContent" }}
+{{ $scratch.Add "addClasses" (print " container--center-content-" (.Get "centerContent")) }}
+{{ end }}
+
 {{ $scratch.Add "classes" ($scratch.Get "addClasses") }}
 
 <div

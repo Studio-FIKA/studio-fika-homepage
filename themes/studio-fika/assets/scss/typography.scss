@@ -1,30 +1,63 @@
 .typography {
+    $block: &;
+
+    display: flex;
+    align-items: center;
+
     &--size {
         &-sm {
             font-size: 16px;
+
+            #{$block}__icon {
+                font-size: 18px;
+            }
         }
 
         &-md {
             font-size: 16px;
 
+            #{$block}__icon {
+                font-size: 18px;
+            }
+
             @include bp-tablet-xs {
                 font-size: 18px;
+
+                #{$block}__icon {
+                    font-size: 20px;
+                }
             }
         }
     }
 
     &--type {
         @at-root &-emphasized {
-            border-left: 4px dotted;
-            padding: 8px 16px;
+            @include dotted-border($type: 'left', $width: 4px);
 
-            @include safari-only {
-                border-style: double;
-            }
+            padding: 8px 16px;
 
             @include themify {
                 border-color: themed('color', 'main', '3');
             }
+        }
+
+        @at-root &-info {
+            display: inline-flex;
+            border-left: 4px solid;
+            border-radius: 4px;
+            padding: 16px;
+
+            @include themify {
+                background: themed('color', 'main', '1');
+            }
+        }
+    }
+
+    &__icon {
+        margin-right: 8px;
+
+        & > .icon {
+            vertical-align: bottom;
         }
     }
 }

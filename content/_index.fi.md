@@ -9,20 +9,22 @@ heroHeader: Parturi-kampaamo Studio FIKA
 
 <section>
 
-{{% container maxWidth="tablet-md" padding="md" margin="lg" %}}
+{{< container maxWidth="tablet-md" padding="md" margin="lg" >}}
 {{< decorated decoration="1" >}}
 
-# Parturi-kampaamo Studio FIKA
+<h1>Parturi-kampaamo Studio FIKA</h1>
 
 {{< typography type="emphasized" size="md" >}}
 
-Me välitämme sinun hiuksien ja ihon kunnosta!
+<p>Me välitämme sinun hiuksien ja ihon kunnosta!</p>
 
-Täyden palvelun kauneuskeskus keskustan välittämässä läheisyydessä, jossa loihditaan upeita lopputuloksia asiakkaille! Hiuspuolelta löydätte kolme intohimoista kampaajaa Johanna, Miia & Mira. Säännölliset ja monipuoliset koulutukset pitävät työn aina tuoreena, kun kokoajan tulee uutta opittavaa!  Meikkauksien parissa häärää taas Johanna K. Hänen penkistä taittuu upeat juhlameikit! Ripsienpidennykset ja hemmottelevat kasvohoidot ovat kosmetologimme Lotan alaa ja hän onkin niissä superlahjakas. Vuosien kokemus alalta näkyy työn jäljessä.
+<p>Täyden palvelun kauneuskeskus keskustan välittämässä läheisyydessä, jossa loihditaan upeita lopputuloksia asiakkaille! Hiuspuolelta löydätte neljä intohimoista kampaajaa Johanna, Miia, Mira & Iisa. Säännölliset ja monipuoliset koulutukset pitävät työn aina tuoreena, kun kokoajan tulee uutta opittavaa!  Meikkauksien parissa häärää taas Johanna K. Hänen penkistä taittuu upeat juhlameikit! Ripsienpidennykset ja hemmottelevat kasvohoidot ovat kosmetologimme Lotan alaa ja hän onkin niissä superlahjakas. Vuosien kokemus alalta näkyy työn jäljessä.</p>
 
-Nykyaikaiset ja remontoidut tilat ovat yhdessä kerroksessa ja liikkeessä on helppo liikkua. Virallisia aukioloaikoja ei meillä ole, koska työskentelemme sopimuksen mukaan ma-su!
+<p>Nykyaikaiset ja remontoidut tilat ovat yhdessä kerroksessa ja liikkeessä on helppo liikkua. Virallisia aukioloaikoja ei meillä ole, koska työskentelemme sopimuksen mukaan ma-su!</p>
 
-**Tervetuloa Fikaan!**
+<p>
+    <strong>Tervetuloa Fikaan!</strong>
+</p>
 
 {{< cta type="solid" href="ajanvaraus/" >}}
 Varaa aika
@@ -31,7 +33,7 @@ Varaa aika
 {{< /typography >}}
 
 {{< /decorated >}}
-{{% /container %}}
+{{< /container >}}
 
 </section>
 

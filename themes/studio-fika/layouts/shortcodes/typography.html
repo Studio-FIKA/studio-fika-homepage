@@ -18,6 +18,13 @@
 
 {{ if eq $tag "div" }}
 <div class="{{- $scratch.Get "classes" -}}">
-    {{- .Inner -}}
+    {{ if eq (.Get "type") "info" }}
+        <div class="typography__icon typography__icon--info">
+            {{ partial "icon" (dict "context" . "icon" "info") }}
+        </div>
+    {{ end }}
+    <div class="typography__content">
+        {{- .Inner -}}
+    </div>
 </div>
 {{ end }}

@@ -5,6 +5,19 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 # Hinnasto
 
+
+<section>
+
+{{< container maxWidth="tablet-sm" padding="md" margin="lg" centerContent="h" >}}
+{{< typography type="info" size="sm" >}}
+
+Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.
+
+{{< /typography >}}
+{{< /container >}}
+
+</section>
+
 {{% container maxWidth="tablet-xxl" padding="md" margin="lg" %}}
 
 {{< pricing >}}
@@ -214,19 +227,21 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
-{{% container maxWidth="tablet-xxl" padding="md" margin="lg" %}}
+{{< container maxWidth="tablet-xxl" padding="md" margin="lg" >}}
 {{< typography type="emphasized" size="md" >}}
 
+<p>
 Hinnat sisältävät alv 24%. Pidätämme oikeudet hinnan muutoksiin. Peruutuksen on
 tapahduttava viimeistään 24h ennen varattua aikaa. Saman vuorokauden aikana
 peruutetuista 50% ja peruuttamattomista ajoista yrityksellä on oikeus periä 100%
 palvelun hinnasta. Reklamaatioaika on 7 vuorokautta.
+</p>
 
 {{< cta type="solid" href="ajanvaraus/" >}}
 Varaa aika
 {{< /cta >}}
 
 {{< /typography >}}
-{{% /container %}}
+{{< /container >}}
 
 </section>
