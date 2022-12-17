@@ -85,6 +85,12 @@ disableKinds = ["taxonomy", "term"]
         title = "Kosmetologi, Ripsiteknikko"
         introduction = "lottaIntro"
         instagram = "https://www.instagram.com/fika.lotta/"
+    [[params.personnel]]
+        image = "images/personnel/iisa_2.jpg"
+        name = "Iisa"
+        title = "Junior Stylist, Barber"
+        introduction = "iisaIntro"
+        instagram = "https://www.instagram.com/fika.iisa/"
 
 [imaging]
     quality = 90
