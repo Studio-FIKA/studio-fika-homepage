@@ -26,11 +26,15 @@ Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.
 
 ## Parturipalvelut
 
-| Palvelu                |     Hinta |
-|:-----------------------|----------:|
-| Parturileikkaus        | 30&nbsp;€ |
-| Parturileikkaus 45 min | 36&nbsp;€ |
-| Koneajo                | 18&nbsp;€ |
+| Palvelu                                |     Hinta |
+|:---------------------------------------|----------:|
+| Parturileikkaus                        | 30&nbsp;€ |
+| Mallinmuutosleikkaus (Parturileikkaus) | 38&nbsp;€ |
+| Skin Fade leikkaus                     | 38&nbsp;€ |
+| Hiusrajojen siistiminen                | 19&nbsp;€ |
+| Koneajo                                | 18&nbsp;€ |
+| Parran muotoilu                        | 20&nbsp;€ |
+| Amerikkalainen parranajo               | 40&nbsp;€ |
 
 </section>
 
@@ -75,6 +79,23 @@ Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.
 | Moniväri ja leikkaus extra pitkät hiukset       | 168,50&nbsp;€ |
 | Moniväri extra extra pitkät hiukset             | 168,50&nbsp;€ |
 | Moniväri ja leikkaus extra extra pitkät hiukset | 188,50&nbsp;€ |
+
+</section>
+
+<section>
+
+## Erikoisvärjäykset
+
+| Palvelu                                                |         Hinta |
+|:-------------------------------------------------------|--------------:|
+| Erikoisvärjäys Lyhyt hiukset                           | 145,50&nbsp;€ |
+| Erikoisvärjäys + hiustenleikkaus Lyhyet hiukset        | 165,50&nbsp;€ |
+| Erikoisvärjäys Puolipitkät hiukset                     | 175,50&nbsp;€ |
+| Erikoisvärjäys + hiustenleikkaus Puoli pitkät hiukset  | 195,50&nbsp;€ |
+| Erikoisvärjäys Pitkät hiukset                          | 205,50&nbsp;€ |
+| Erikoisvärjäys pitkät hiukset + hiusten leikkaus       | 225,50&nbsp;€ |
+| Erikoisvärjäys extra pitkät hiukset                    | 245,50&nbsp;€ |
+| Erikoisvärjäys extra pitkät hiukset + hiusten leikkaus |    260&nbsp;€ |
 
 </section>
 
@@ -161,23 +182,6 @@ Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.
 | Lasten mallinmuutos    | 30&nbsp;€ |
 
 *Alle 12-vuotiaat*
-
-</section>
-
-<section>
-
-## Opiskelijatyöt
-
-| Palvelu                           |        Hinta |
-|:----------------------------------|-------------:|
-| Parturileikkaus (opiskelija)      |    20&nbsp;€ |
-| Kampaamoleikkaus (opiskelija)     |    25&nbsp;€ |
-| Väri/Moniväri + hl lyhyet         | 71,10&nbsp;€ |
-| Väri/Moniväri puolipitkä + hl     | 77,10&nbsp;€ |
-| Väri/Moniväri pitkät hiukset + hl | 89,10&nbsp;€ |
-| Raidat lyhyet hiukset + hl        | 73,50&nbsp;€ |
-| Raidat puolipitkät hiukset + hl   | 83,10&nbsp;€ |
-| Raidat pitkät hiukset + hl        | 95,10&nbsp;€ |
 
 </section>
 
