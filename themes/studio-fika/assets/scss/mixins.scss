@@ -336,3 +336,21 @@
         }
     }
 }
+
+@mixin dotted-border($width, $type: 'all') {
+    @if $type == 'top' {
+        border-top: $width dotted;
+    } @else if $type == 'right' {
+        border-right: $width dotted;
+    } @else if $type == 'bottom' {
+        border-bottom: $width dotted;
+    } @else if $type == 'left' {
+        border-left: $width dotted;
+    } @else if $type == 'all' {
+        border: $width dotted;
+    }
+
+    @include safari-only {
+        border-style: double;
+    }
+}
