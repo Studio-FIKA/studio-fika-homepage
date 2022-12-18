@@ -12,7 +12,7 @@ heroHeader: Parturi-kampaamo Studio FIKA
 {{< container maxWidth="tablet-md" padding="md" margin="lg" >}}
 {{< decorated decoration="1" >}}
 
-<h1>Parturi-kampaamo Studio FIKA</h1>
+<h1>Parturi-kampaamo Studio&nbsp;FIKA</h1>
 
 {{< typography type="emphasized" size="md" >}}
 
