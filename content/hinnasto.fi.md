@@ -8,7 +8,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
-{{< container maxWidth="tablet-sm" padding="md" margin="lg" centerContent="h" >}}
+{{< container maxWidth="tablet-xxl" padding="md" margin="lg" centerContent="h" >}}
 {{< typography type="info" size="sm" >}}
 
 Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.

@@ -125,45 +125,30 @@
     }
 
     &__person-intro {
+        @include dotted-border($width: 4px, $type: 'bottom', $color: '2');
+
         padding: 1em 1em 2em;
-        border-bottom: 4px dotted;
         line-height: 1.6;
 
-        @include safari-only {
-            border-bottom: 6px double;
-        }
-
-        @include themify {
-            border-color: themed('color', 'main', '2');
-        }
-
         @at-root #{$block}__person:last-child & {
-            border-bottom: 0;
-            padding-bottom: 0;
+            &::after {
+                display: none;
+                border-bottom: none;
+            }
 
             @include bp-tablet-xs {
-                border-bottom: 4px dotted;
+                @include dotted-border($width: 4px, $type: 'top-and-bottom', $color: '2');
+
                 padding-bottom: 1em;
-
-                @include safari-only {
-                    border-bottom: 6px double;
-                }
-
-                @include themify {
-                    border-color: themed('color', 'main', '2');
-                }
             }
         }
 
         @include bp-tablet-xs {
+            @include dotted-border($width: 4px, $type: 'top-and-bottom', $color: '2');
+
             padding: 1em 0 1em;
-            border-top: 4px dotted;
             font-family: map-get($font, 'header');
             font-size: 18px;
-
-            @include safari-only {
-                border-top: 6px double;
-            }
         }
 
         a {

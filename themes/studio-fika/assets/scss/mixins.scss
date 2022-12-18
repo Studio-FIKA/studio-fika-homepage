@@ -205,15 +205,6 @@
     }
 }
 
-// https://browserstrangeness.bitbucket.io/css_hacks.html#safari
-@mixin safari-only {
-    @media not all and (min-resolution: 0.001dpcm) {
-        @supports (-webkit-appearance: none) {
-            @content;
-        }
-    }
-}
-
 @mixin cta($solid: false, $translateYStart: 0%) {
     @include button-reset;
 
@@ -337,20 +328,61 @@
     }
 }
 
-@mixin dotted-border($width, $type: 'all') {
-    @if $type == 'top' {
-        border-top: $width dotted;
-    } @else if $type == 'right' {
-        border-right: $width dotted;
-    } @else if $type == 'bottom' {
-        border-bottom: $width dotted;
-    } @else if $type == 'left' {
-        border-left: $width dotted;
-    } @else if $type == 'all' {
-        border: $width dotted;
+@mixin dotted-border($width, $type, $color) {
+    position: relative;
+
+    &::before {
+        display: none;
+        content: '';
+        position: absolute;
+        background-image: url('/decorations/dotted-border-#{$color}.svg');
+        background-size: $width * 2;
+        pointer-events: none;
     }
 
-    @include safari-only {
-        border-style: double;
+    &::after {
+        display: none;
+        content: '';
+        position: absolute;
+        background-image: url('/decorations/dotted-border-#{$color}.svg');
+        background-size: $width * 2;
+        pointer-events: none;
+    }
+
+        @if $type == 'left' {
+            border-left: $width solid transparent;
+
+            &::before {
+                display: block;
+                background-repeat: repeat-y;
+                width: $width;
+                height: 100%;
+                top: 0;
+                left: -$width;
+            }
+        } @elseif $type == 'top' or $type == 'top-and-bottom' {
+            border-top: $width solid transparent;
+
+            &::before {
+                display: block;
+                background-repeat: repeat-x;
+                width: 100%;
+                height: $width;
+                top: -$width;
+                left: 0;
+            }
+        }
+
+    @if $type == 'bottom' or $type == 'top-and-bottom' {
+        border-bottom: $width solid transparent;
+
+        &::after {
+            display: block;
+            background-repeat: repeat-x;
+            width: 100%;
+            height: $width;
+            bottom: -$width;
+            left: 0;
+        }
     }
 }

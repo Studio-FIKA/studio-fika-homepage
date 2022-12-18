@@ -32,13 +32,9 @@
 
     &--type {
         @at-root &-emphasized {
-            @include dotted-border($type: 'left', $width: 4px);
+            @include dotted-border($width: 4px, $type: 'left', $color: '3');
 
             padding: 8px 16px;
-
-            @include themify {
-                border-color: themed('color', 'main', '3');
-            }
         }
 
         @at-root &-info {
