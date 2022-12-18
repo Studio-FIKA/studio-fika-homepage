@@ -38,6 +38,8 @@
         }
 
         @at-root &-info {
+            @include box-shadow-shorter;
+
             display: inline-flex;
             border-left: 4px solid;
             border-radius: 4px;
