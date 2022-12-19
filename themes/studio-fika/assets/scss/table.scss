@@ -15,13 +15,11 @@ table {
         }
     }
 
-    tr {
-        td {
+    tbody {
+        tr {
             @include dotted-border($width: 1px, $type: 'bottom', $color: '4');
-        }
 
-        &:last-child:not(:only-child) {
-            td {
+            &:last-child:not(:only-child) {
                 &::after {
                     display: none;
                     border-bottom: none;
