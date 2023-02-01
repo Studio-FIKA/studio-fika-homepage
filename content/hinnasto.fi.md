@@ -16,11 +16,11 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                                |     Hinta |
 |:---------------------------------------|----------:|
-| Parturileikkaus                        | 30&nbsp;€ |
+| Parturileikkaus                        | 32&nbsp;€ |
 | Mallinmuutosleikkaus (Parturileikkaus) | 38&nbsp;€ |
 | Skin Fade leikkaus                     | 38&nbsp;€ |
 | Hiusrajojen siistiminen                | 19&nbsp;€ |
-| Koneajo                                | 18&nbsp;€ |
+| Koneajo                                | 19&nbsp;€ |
 | Parran muotoilu                        | 20&nbsp;€ |
 | Amerikkalainen parranajo               | 40&nbsp;€ |
 
@@ -32,10 +32,10 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu              |     Hinta |
 |:---------------------|----------:|
-| Kampaamoleikkaus     | 42&nbsp;€ |
-| Mallinmuutosleikkaus | 55&nbsp;€ |
+| Kampaamoleikkaus     | 44&nbsp;€ |
+| Mallinmuutosleikkaus | 58&nbsp;€ |
 | Otsahiusten leikkaus | 15&nbsp;€ |
-| Tasausleikkaus       | 30&nbsp;€ |
+| Tasausleikkaus       | 32&nbsp;€ |
 
 </section>
 
@@ -45,26 +45,26 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                                         |         Hinta |
 |:------------------------------------------------|--------------:|
-| Tyviväri                                        |  81,50&nbsp;€ |
-| Tyviväri ja leikkaus                            | 101,50&nbsp;€ |
-| Väri (lyhyet)                                   |  88,50&nbsp;€ |
-| Väri ja leikkaus (lyhyet)                       | 108,50&nbsp;€ |
-| Väri (keskipitkät)                              |  98,50&nbsp;€ |
-| Väri ja leikkaus (keskipitkät)                  | 118,50&nbsp;€ |
-| Väri (pitkät)                                   | 115,50&nbsp;€ |
-| Väri ja leikkaus (pitkät)                       | 135,50&nbsp;€ |
-| Väri (extrapitkät)                              | 125,50&nbsp;€ |
-| Väri ja leikkaus (extrapitkät)                  | 145,50&nbsp;€ |
-| Väri extra extra pitkät hiukset                 | 135,50&nbsp;€ |
-| Väri ja leikkaus extra extra pitkät hiukset     | 155,50&nbsp;€ |
-| Moniväri lyhyet hiukset                         |  98,50&nbsp;€ |
-| Moniväri ja leikkaus lyhyet hiukset             | 118,50&nbsp;€ |
-| Moniväri keskipitkät hiukset                    | 108,50&nbsp;€ |
-| Moniväri ja leikkaus keskipitkät hiukset        | 128,50&nbsp;€ |
-| Moniväri pitkät hiukset                         | 128,50&nbsp;€ |
-| Moniväri ja leikkaus pitkät hiukset             | 148,50&nbsp;€ |
-| Moniväri extra pitkät hiukset                   | 148,50&nbsp;€ |
-| Moniväri ja leikkaus extra pitkät hiukset       | 168,50&nbsp;€ |
+| Tyviväri                                        |  84,50&nbsp;€ |
+| Tyviväri ja leikkaus                            | 104,50&nbsp;€ |
+| Väri (lyhyet)                                   |  91,50&nbsp;€ |
+| Väri ja leikkaus (lyhyet)                       | 111,50&nbsp;€ |
+| Väri (keskipitkät)                              | 101,50&nbsp;€ |
+| Väri ja leikkaus (keskipitkät)                  | 121,50&nbsp;€ |
+| Väri (pitkät)                                   | 118,50&nbsp;€ |
+| Väri ja leikkaus (pitkät)                       | 138,50&nbsp;€ |
+| Väri (extrapitkät)                              | 128,50&nbsp;€ |
+| Väri ja leikkaus (extrapitkät)                  | 148,50&nbsp;€ |
+| Väri extra extra pitkät hiukset                 | 138,50&nbsp;€ |
+| Väri ja leikkaus extra extra pitkät hiukset     | 158,50&nbsp;€ |
+| Moniväri lyhyet hiukset                         | 101,50&nbsp;€ |
+| Moniväri ja leikkaus lyhyet hiukset             | 121,50&nbsp;€ |
+| Moniväri keskipitkät hiukset                    | 111,50&nbsp;€ |
+| Moniväri ja leikkaus keskipitkät hiukset        | 131,50&nbsp;€ |
+| Moniväri pitkät hiukset                         | 131,50&nbsp;€ |
+| Moniväri ja leikkaus pitkät hiukset             | 151,50&nbsp;€ |
+| Moniväri extra pitkät hiukset                   | 151,50&nbsp;€ |
+| Moniväri ja leikkaus extra pitkät hiukset       | 171,50&nbsp;€ |
 | Moniväri extra extra pitkät hiukset             | 168,50&nbsp;€ |
 | Moniväri ja leikkaus extra extra pitkät hiukset | 188,50&nbsp;€ |
 
@@ -93,28 +93,28 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                                       |         Hinta |
 |:----------------------------------------------|--------------:|
-| Tyvivaalennus                                 |  95,50&nbsp;€ |
-| Tyvivaalennus + hiustenleikkaus               | 115,50&nbsp;€ |
-| Vaalennus lyhyet hiukset                      | 110,50&nbsp;€ |
-| Vaalennus ja leikkaus lyhyet hiukset          | 130,50&nbsp;€ |
-| Vaalennus keskipitkät hiukset                 | 130,50&nbsp;€ |
-| Vaalennus ja leikkaus pp.                     | 150,50&nbsp;€ |
-| Vaalennus pitkät hiukset                      | 150,50&nbsp;€ |
-| Vaalennus ja leikkaus pitkät hiukset          | 170,50&nbsp;€ |
-| Vaalennus extra pitkät hiukset                | 180,50&nbsp;€ |
-| Vaalennus extra pitkät hiukset ja leikkaus    |    200&nbsp;€ |
-| Vaalennus extra extra pitkät hiukset          | 200,50&nbsp;€ |
-| Vaalennus extra extra pitkät hiukset + hl     | 220,50&nbsp;€ |
-| Raidat lyhyet hiukset                         | 100,50&nbsp;€ |
-| Raidat ja leikkaus lyhyet hiukset             | 120,50&nbsp;€ |
-| Raidat keskipitkät hiukset                    | 115,50&nbsp;€ |
-| Raidat ja leikkaus keskipitkät hiukset        | 135,50&nbsp;€ |
-| Raidat pitkät hiukset                         | 135,50&nbsp;€ |
-| Raidat ja leikkaus pitkät hiukset             | 155,50&nbsp;€ |
+| Tyvivaalennus                                 | 100,50&nbsp;€ |
+| Tyvivaalennus + hiustenleikkaus               | 120,50&nbsp;€ |
+| Vaalennus lyhyet hiukset                      | 120,50&nbsp;€ |
+| Vaalennus ja leikkaus lyhyet hiukset          | 140,50&nbsp;€ |
+| Vaalennus keskipitkät hiukset                 | 140,50&nbsp;€ |
+| Vaalennus ja leikkaus pp.                     | 160,50&nbsp;€ |
+| Vaalennus pitkät hiukset                      | 160,50&nbsp;€ |
+| Vaalennus ja leikkaus pitkät hiukset          | 180,50&nbsp;€ |
+| Vaalennus extra pitkät hiukset                | 190,50&nbsp;€ |
+| Vaalennus extra pitkät hiukset ja leikkaus    | 210,50&nbsp;€ |
+| Vaalennus extra extra pitkät hiukset          | 210,50&nbsp;€ |
+| Vaalennus extra extra pitkät hiukset + hl     | 230,50&nbsp;€ |
+| Raidat lyhyet hiukset                         | 105,50&nbsp;€ |
+| Raidat ja leikkaus lyhyet hiukset             | 125,50&nbsp;€ |
+| Raidat keskipitkät hiukset                    | 120,50&nbsp;€ |
+| Raidat ja leikkaus keskipitkät hiukset        | 140,50&nbsp;€ |
+| Raidat pitkät hiukset                         | 140,50&nbsp;€ |
+| Raidat ja leikkaus pitkät hiukset             | 160,50&nbsp;€ |
 | Raidat extra pitkät hiukset                   | 160,50&nbsp;€ |
 | Raidat ja leikkaus extra pitkät hiukset       | 180,50&nbsp;€ |
-| Raidat extra extra pitkät hiukset             | 180,50&nbsp;€ |
-| Raidat ja leikkaus extra extra pitkät hiukset | 200,50&nbsp;€ |
+| Raidat extra extra pitkät hiukset             | 190,50&nbsp;€ |
+| Raidat ja leikkaus extra extra pitkät hiukset | 210,50&nbsp;€ |
 
 *Sisältävät sävytyksen*
 
@@ -166,8 +166,8 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                |     Hinta |
 |:-----------------------|----------:|
-| Lasten hiustenleikkaus | 23&nbsp;€ |
-| Lasten mallinmuutos    | 30&nbsp;€ |
+| Lasten hiustenleikkaus | 25&nbsp;€ |
+| Lasten mallinmuutos    | 32&nbsp;€ |
 
 *Alle 12-vuotiaat*
 
