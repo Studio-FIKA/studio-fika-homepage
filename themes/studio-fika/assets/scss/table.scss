@@ -19,6 +19,9 @@ table {
         tr {
             @include dotted-border($width: 1px, $type: 'bottom', $color: '4');
 
+            display: flex;
+            justify-content: space-between;
+
             &:last-child:not(:only-child) {
                 &::after {
                     display: none;
