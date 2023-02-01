@@ -6,18 +6,6 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 # Hinnasto
 
 
-<section>
-
-{{< container maxWidth="tablet-xxl" padding="md" margin="lg" centerContent="h" >}}
-{{< typography type="info" size="sm" >}}
-
-Junior Stylist -hinnat -30&nbsp;% värjäyspalveluista.
-
-{{< /typography >}}
-{{< /container >}}
-
-</section>
-
 {{% container maxWidth="tablet-xxl" padding="md" margin="lg" %}}
 
 {{< pricing >}}
