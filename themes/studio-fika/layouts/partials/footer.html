@@ -16,7 +16,7 @@
                 </nav>
             </div>
             <div class="main-footer-default__column main-footer-default__column--center">
-                <a href="{{- .Site.BaseURL | absLangURL -}}" class="main-footer-default__logo">
+                <a href="{{- .Site.Params.altHomePath | absLangURL -}}" class="main-footer-default__logo">
                     {{- .Site.Params.footer.logo | readFile | safeHTML -}}
                 </a>
             </div>

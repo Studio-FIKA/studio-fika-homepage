@@ -12,7 +12,7 @@
     <div class="main-nav-default__background"></div>
     <div class="main-nav-default__content">
         <div class="main-nav-default__logo">
-            <a href="{{- .Site.BaseURL | absLangURL -}}">
+            <a href="{{- .Site.Params.altHomePath | absLangURL -}}">
                 <span class="vhidden">{{- i18n "frontPage" -}}</span>
                 {{- .Site.Params.mainNavigation.logo | readFile | safeHTML -}}
             </a>
