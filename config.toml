@@ -31,8 +31,8 @@ disableKinds = ["taxonomy", "term"]
         weight = 4
 
 [params]
-    altHomePath = "parturi-kampaamo-lahti/"
-    theme = "light"
+    [params.theme]
+        default = "light"
     [params.mainNavigation]
         logo = "assets/images/logo/logo_black_fika_only.svg"
     [params.footer]
