@@ -2,6 +2,7 @@ theme = "studio-fika"
 defaultContentLanguage = "fi"
 disableLanguages = ["en"]
 disableKinds = ["taxonomy", "term"]
+timeout = "120s"
 
 [languages]
     [languages.fi]
