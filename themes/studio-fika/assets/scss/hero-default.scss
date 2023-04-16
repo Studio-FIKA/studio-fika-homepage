@@ -59,6 +59,9 @@
         position: absolute;
         bottom: 32px;
         width: clamp(0%, 60%, 320px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @include bp-mobile-lg {
             width: clamp(0%, 50%, 320px);
@@ -71,6 +74,8 @@
     }
 
     &__logo {
+        width: 100%;
+
         svg {
             width: 100%;
 
@@ -100,16 +105,21 @@
 
         @include bp-tablet-md {
             display: block;
-            margin-top: 32px;
+            margin: 32px 0 0;
             font-family: map-get($font, 'header');
             text-align: center;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.4;
+            max-width: 280px;
 
             @include themify {
                 color: themed('color', 'main', '3');
             }
+        }
+
+        @include bp-tablet-xxl {
+            max-width: none;
         }
     }
 
