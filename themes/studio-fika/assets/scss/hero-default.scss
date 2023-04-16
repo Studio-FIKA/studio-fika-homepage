@@ -58,7 +58,11 @@
     &__logo-content-container {
         position: absolute;
         bottom: 32px;
-        width: clamp(0%, 50%, 320px);
+        width: clamp(0%, 60%, 320px);
+
+        @include bp-mobile-lg {
+            width: clamp(0%, 50%, 320px);
+        }
 
         @include bp-tablet-md {
             width: 40%;
@@ -72,16 +76,12 @@
 
             @include themify {
                 fill: themed('color', 'main', '2');
-                filter:
-                    drop-shadow(0 1px 0 themed('color', 'main', '3'))
-                    drop-shadow(0 0 16px themed('color', 'complementary', '2'));
+                filter: drop-shadow(0 0 16px themed('color', 'complementary', '2'));
             }
 
             @include bp-mobile-lg {
                 @include themify {
-                    filter:
-                        drop-shadow(0 1px 0 themed('color', 'main', '3'))
-                        drop-shadow(0 0 16px rgba(themed('color', 'complementary', '2'), 0.6));
+                    filter: drop-shadow(0 0 16px rgba(themed('color', 'complementary', '2'), 0.6));
                 }
             }
 
@@ -116,11 +116,7 @@
     &__cta-container {
         text-align: center;
         margin-top: 24px;
-        font-size: 14px;
-
-        @include bp-mobile-md {
-            font-size: 16px;
-        }
+        font-size: 16px;
 
         @include bp-tablet-md {
             margin-top: 32px;
