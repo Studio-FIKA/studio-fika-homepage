@@ -140,7 +140,7 @@
         @include bp-tablet-md {
             display: block;
             position: absolute;
-            right: -32px;
+            right: 0;
             bottom: -32px;
             width: 25%;
             opacity: 0.35;
@@ -148,6 +148,10 @@
             @include themify {
                 fill: themed('color', 'main', '2');
             }
+        }
+
+        @include bp-desktop-xs {
+            right: -32px;
         }
     }
 }
