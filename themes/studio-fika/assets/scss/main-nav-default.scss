@@ -80,10 +80,17 @@
         & > a {
             padding: 8px 16px;
             display: block;
-            width: 136px;
+            width: 87px;
+            transition: fill 200ms ease-out;
 
-            @include themify {
-                fill: themed('color', 'main', '4');
+            &:hover, &:focus, &:active {
+                @include themify {
+                    fill: themed('color', 'main', '4');
+                }
+            }
+
+            @include bp-tablet-xs {
+                width: 96px;
             }
         }
     }

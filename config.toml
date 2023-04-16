@@ -34,7 +34,7 @@ disableKinds = ["taxonomy", "term"]
     [params.theme]
         default = "light"
     [params.mainNavigation]
-        logo = "assets/images/logo/logo_black_fika_only.svg"
+        logo = "assets/images/logo/logo_black_gold.svg"
     [params.footer]
         logo = "assets/images/logo/logo_white_gold.svg"
     [params.contactInfo]
@@ -43,7 +43,7 @@ disableKinds = ["taxonomy", "term"]
         streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
         companyId = "3229112-1"
     [params.creditsInfo]
-        photographer =  "Anu Jalava"
+        photographer =  "Iisa"
     [[params.socialMedia]]
         name = "Instagram"
         icon = "instagram"
@@ -55,19 +55,19 @@ disableKinds = ["taxonomy", "term"]
         profile = "Studio FIKA"
         url = "https://www.facebook.com/Studio-FIKA-102839872150205/"
     [[params.personnel]]
-        image = "images/personnel/johanna_2.jpeg"
+        image = "images/personnel/johanna.jpg"
         name = "Johanna"
         title = "Blonde Specialist, Balayage"
         introduction = "johannaIntro"
         instagram = "https://www.instagram.com/fika.johanna/"
     [[params.personnel]]
-        image = "images/personnel/mira_3.jpeg"
+        image = "images/personnel/mira.jpg"
         name = "Mira"
         title = "Parturi-kampaaja"
         introduction = "miraIntro"
         instagram = "https://www.instagram.com/fika.mira/"
     [[params.personnel]]
-        image = "images/personnel/miia_5.jpg"
+        image = "images/personnel/miia.jpg"
         name = "Miia"
         title = "Parturi-kampaaja"
         introduction = "miiaIntro"
@@ -80,15 +80,15 @@ disableKinds = ["taxonomy", "term"]
         instagram = "https://www.instagram.com/johannakotromakeup/"
         email = "info@studiofika.fi"
     [[params.personnel]]
-        image = "images/personnel/lotta_2.jpg"
+        image = "images/personnel/lotta.jpg"
         name = "Lotta"
         title = "Kosmetologi, Ripsiteknikko"
         introduction = "lottaIntro"
         instagram = "https://www.instagram.com/fika.lotta/"
     [[params.personnel]]
-        image = "images/personnel/iisa_2.jpg"
+        image = "images/personnel/iisa.jpg"
         name = "Iisa"
-        title = "Junior Stylist, Barber"
+        title = "Parturi-kampaaja"
         introduction = "iisaIntro"
         instagram = "https://www.instagram.com/fika.iisa/"
 

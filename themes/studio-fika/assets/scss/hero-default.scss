@@ -1,17 +1,16 @@
 .hero-default {
     &__main-content {
+        max-width: em-to-rem(map-get($breakpoint, 'tablet-xxl'));
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
-        padding: clamp(0vw, 33vw, 320px) 0;
-        border-top: 8px solid;
-        border-bottom: 8px solid;
-        overflow: hidden;
+        padding: clamp(0vw, 66vw, 320px) 0;
 
-        @include themify {
-            border-color: themed('color', 'gold', '7');
+        @include bp-desktop-xs {
+            margin: 0 auto 32px;
         }
 
         & > img {
@@ -21,21 +20,128 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: center;
+            object-position: 50% 80%;
+
+            @include bp-mobile-md {
+                object-position: 50% 80%;
+            }
+
+            @include bp-mobile-lg {
+                object-position: 50% 30%;
+            }
+
+            @include bp-mobile-xl {
+                object-position: 50% 30%;
+            }
+
+            @include bp-tablet-md {
+                width: 60%;
+                height: 100%;
+                object-position: 0 30%;
+            }
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #fff, rgba(#fff, 0.4), transparent 60%);
+
+        @include bp-tablet-md {
+            background: linear-gradient(to top, #fff, rgba(#fff, 0.3), transparent 50%);
+        }
+    }
+
+    &__logo-content-container {
+        position: absolute;
+        bottom: 32px;
+        width: clamp(0%, 50%, 320px);
+
+        @include bp-tablet-md {
+            width: 40%;
+            right: 32px;
         }
     }
 
     &__logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        width: 120%;
-        max-width: em-to-rem(map-get($breakpoint, 'tablet-xxl'));
-        background: radial-gradient(rgba(#000, 0.4), transparent 60%);
-
         svg {
             width: 100%;
+
+            @include themify {
+                fill: themed('color', 'main', '2');
+                filter:
+                    drop-shadow(0 1px 0 themed('color', 'main', '3'))
+                    drop-shadow(0 0 16px themed('color', 'complementary', '2'));
+            }
+
+            @include bp-mobile-lg {
+                @include themify {
+                    filter:
+                        drop-shadow(0 1px 0 themed('color', 'main', '3'))
+                        drop-shadow(0 0 16px rgba(themed('color', 'complementary', '2'), 0.6));
+                }
+            }
+
+            @include bp-tablet-md {
+                @include themify {
+                    filter:
+                        drop-shadow(0 1px 0 themed('color', 'main', '3'))
+                        drop-shadow(0 0 16px themed('color', 'complementary', '1'));
+                }
+            }
+        }
+    }
+
+    &__subtitle {
+        display: none;
+
+        @include bp-tablet-md {
+            display: block;
+            margin-top: 32px;
+            font-family: map-get($font, 'header');
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.4;
+
+            @include themify {
+                color: themed('color', 'main', '3');
+            }
+        }
+    }
+
+    &__cta-container {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 14px;
+
+        @include bp-mobile-md {
+            font-size: 16px;
+        }
+
+        @include bp-tablet-md {
+            margin-top: 32px;
+            font-size: 18px;
+        }
+    }
+
+    &__decoration {
+        display: none;
+
+        @include bp-tablet-md {
+            display: block;
+            position: absolute;
+            right: -32px;
+            bottom: -32px;
+            width: 25%;
+            opacity: 0.35;
+
+            @include themify {
+                fill: themed('color', 'main', '2');
+            }
         }
     }
 }
