@@ -17,6 +17,7 @@
             </div>
             <div class="main-footer-default__column main-footer-default__column--center">
                 <a href="{{- .Site.BaseURL | absLangURL -}}" class="main-footer-default__logo">
+                    <span class="vhidden">{{- i18n "frontPage" -}}</span>
                     {{- .Site.Params.footer.logo | readFile | safeHTML -}}
                 </a>
             </div>

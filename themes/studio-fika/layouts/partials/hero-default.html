@@ -11,6 +11,23 @@
                 "src" .Params.heroImage
                 "alt" (.Params.heroHeader | safeHTML)
                 "loading" "eager"
+                "sizes" (
+                    slice
+                    (slice 320 320)
+                    (slice 375 375)
+                    (slice 480 480)
+                    (slice 540 540)
+                    (slice 640 640)
+                    (slice 720 720)
+                    (slice 768 768)
+                    (slice 800 800)
+                    (slice 900  540)
+                    (slice 1024  615)
+                    (slice 1080  648)
+                    (slice 1200  720)
+                    (slice 2560  958)
+                    (slice 3840  1440)
+                )
             )
         }}
         {{ end }}
