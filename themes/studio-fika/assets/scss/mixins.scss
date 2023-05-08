@@ -212,9 +212,13 @@
     font-size: 1em;
     font-weight: 500;
     text-align: center;
-    transition: box-shadow 0.3s ease-out, color 0.3s ease-out,
-        background 0.3s ease-out, transform 0.3s ease-out,
-        font-weight 0.3s ease-out;
+    transition:
+        box-shadow 0.3s ease-out,
+        color 0.3s ease-out,
+        background 0.3s ease-out,
+        transform 0.3s ease-out,
+        font-weight 0.3s ease-out,
+        text-shadow 0.3s ease-out;
     padding: 0.5em 1em;
     border: 2px solid;
     border-radius: 4px;
@@ -228,8 +232,11 @@
         @include themify {
             color: themed('color', 'main', '1');
             background: themed('color', 'main', '4');
+            text-shadow: 0 -1px rgba(themed('color', 'complementary', '2'), 0.2);
         }
     } @else {
+        text-shadow: 0 -1px transparent;
+
         @include themify {
             color: themed('color', 'main', '4');
         }
@@ -267,6 +274,7 @@
         @include themify {
             color: themed('color', 'main', '1');
             background: themed('color', 'main', '4');
+            text-shadow: 0 -1px rgba(themed('color', 'complementary', '2'), 0.2);
         }
 
         &::after {
