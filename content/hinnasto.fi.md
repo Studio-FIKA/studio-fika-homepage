@@ -19,7 +19,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 | Parturileikkaus                        | 32&nbsp;€ |
 | Mallinmuutosleikkaus (Parturileikkaus) | 38&nbsp;€ |
 | Skin Fade leikkaus                     | 38&nbsp;€ |
-| Hiusrajojen siistiminen                | 19&nbsp;€ |
+| Hiusrajojen siistiminen.               | 19&nbsp;€ |
 | Koneajo                                | 19&nbsp;€ |
 | Parran muotoilu                        | 20&nbsp;€ |
 | Amerikkalainen parranajo               | 40&nbsp;€ |
@@ -36,54 +36,6 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 | Mallinmuutosleikkaus | 58&nbsp;€ |
 | Otsahiusten leikkaus | 15&nbsp;€ |
 | Tasausleikkaus       | 32&nbsp;€ |
-
-</section>
-
-<section>
-
-## Värjäykset
-
-| Palvelu                                         |         Hinta |
-|:------------------------------------------------|--------------:|
-| Tyviväri                                        |  84,50&nbsp;€ |
-| Tyviväri ja leikkaus                            | 104,50&nbsp;€ |
-| Väri (lyhyet)                                   |  91,50&nbsp;€ |
-| Väri ja leikkaus (lyhyet)                       | 111,50&nbsp;€ |
-| Väri (keskipitkät)                              | 101,50&nbsp;€ |
-| Väri ja leikkaus (keskipitkät)                  | 121,50&nbsp;€ |
-| Väri (pitkät)                                   | 118,50&nbsp;€ |
-| Väri ja leikkaus (pitkät)                       | 138,50&nbsp;€ |
-| Väri (extrapitkät)                              | 128,50&nbsp;€ |
-| Väri ja leikkaus (extrapitkät)                  | 148,50&nbsp;€ |
-| Väri extra extra pitkät hiukset                 | 138,50&nbsp;€ |
-| Väri ja leikkaus extra extra pitkät hiukset     | 158,50&nbsp;€ |
-| Moniväri lyhyet hiukset                         | 101,50&nbsp;€ |
-| Moniväri ja leikkaus lyhyet hiukset             | 121,50&nbsp;€ |
-| Moniväri keskipitkät hiukset                    | 111,50&nbsp;€ |
-| Moniväri ja leikkaus keskipitkät hiukset        | 131,50&nbsp;€ |
-| Moniväri pitkät hiukset                         | 131,50&nbsp;€ |
-| Moniväri ja leikkaus pitkät hiukset             | 151,50&nbsp;€ |
-| Moniväri extra pitkät hiukset                   | 151,50&nbsp;€ |
-| Moniväri ja leikkaus extra pitkät hiukset       | 171,50&nbsp;€ |
-| Moniväri extra extra pitkät hiukset             | 168,50&nbsp;€ |
-| Moniväri ja leikkaus extra extra pitkät hiukset | 188,50&nbsp;€ |
-
-</section>
-
-<section>
-
-## Erikoisvärjäykset
-
-| Palvelu                                                |         Hinta |
-|:-------------------------------------------------------|--------------:|
-| Erikoisvärjäys Lyhyt hiukset                           | 145,50&nbsp;€ |
-| Erikoisvärjäys + hiustenleikkaus Lyhyet hiukset        | 165,50&nbsp;€ |
-| Erikoisvärjäys Puolipitkät hiukset                     | 175,50&nbsp;€ |
-| Erikoisvärjäys + hiustenleikkaus Puoli pitkät hiukset  | 195,50&nbsp;€ |
-| Erikoisvärjäys Pitkät hiukset                          | 205,50&nbsp;€ |
-| Erikoisvärjäys pitkät hiukset + hiusten leikkaus       | 225,50&nbsp;€ |
-| Erikoisvärjäys extra pitkät hiukset                    | 245,50&nbsp;€ |
-| Erikoisvärjäys extra pitkät hiukset + hiusten leikkaus |    260&nbsp;€ |
 
 </section>
 
@@ -122,14 +74,60 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 <section>
 
+## Värjäykset
+
+| Palvelu                                         |         Hinta |
+|:------------------------------------------------|--------------:|
+| Tyviväri                                        |  84,50&nbsp;€ |
+| Tyviväri ja leikkaus                            | 104,50&nbsp;€ |
+| Väri (lyhyet)                                   |  91,50&nbsp;€ |
+| Väri ja leikkaus (lyhyet)                       | 111,50&nbsp;€ |
+| Väri (keskipitkät)                              | 101,50&nbsp;€ |
+| Väri ja leikkaus (keskipitkät)                  | 121,50&nbsp;€ |
+| Väri (pitkät)                                   | 118,50&nbsp;€ |
+| Väri ja leikkaus (pitkät)                       | 138,50&nbsp;€ |
+| Väri (extrapitkät)                              | 128,50&nbsp;€ |
+| Väri ja leikkaus (extrapitkät)                  | 148,50&nbsp;€ |
+| Väri extra extra pitkät hiukset                 | 138,50&nbsp;€ |
+| Väri ja leikkaus extra extra pitkät hiukset     | 158,50&nbsp;€ |
+| Moniväri lyhyet hiukset                         | 105,50&nbsp;€ |
+| Moniväri ja leikkaus lyhyet hiukset             | 125,50&nbsp;€ |
+| Moniväri keskipitkät hiukset                    | 120,50&nbsp;€ |
+| Moniväri ja leikkaus keskipitkät hiukset        | 140,50&nbsp;€ |
+| Moniväri pitkät hiukset                         | 140,50&nbsp;€ |
+| Moniväri ja leikkaus pitkät hiukset             | 160,50&nbsp;€ |
+| Moniväri extra pitkät hiukset                   | 160,50&nbsp;€ |
+| Moniväri ja leikkaus extra pitkät hiukset       | 180,50&nbsp;€ |
+| Moniväri extra extra pitkät hiukset             | 190,50&nbsp;€ |
+| Moniväri ja leikkaus extra extra pitkät hiukset | 210,50&nbsp;€ |
+
+</section>
+
+<section>
+
+## Erikoisvärjäykset
+
+| Palvelu                                                |         Hinta |
+|:-------------------------------------------------------|--------------:|
+| Erikoisvärjäyskonsultaatio                             |             - |
+| Erikoisvärjäys Lyhyt hiukset                           | 155,50&nbsp;€ |
+| Erikoisvärjäys + hiustenleikkaus Lyhyet hiukset        | 175,50&nbsp;€ |
+| Erikoisvärjäys Puolipitkät hiukset                     | 185,50&nbsp;€ |
+| Erikoisvärjäys + hiustenleikkaus Puolipitkät hiukset   | 205,50&nbsp;€ |
+| Erikoisvärjäys Pitkät hiukset                          | 225,50&nbsp;€ |
+| Erikoisvärjäys pitkät hiukset + hiusten leikkaus       | 245,50&nbsp;€ |
+| Erikoisvärjäys extra pitkät hiukset                    | 265,50&nbsp;€ |
+| Erikoisvärjäys extra pitkät hiukset + hiusten leikkaus | 285,50&nbsp;€ |
+
+</section>
+
+<section>
+
 ## Hiushoidot
 
-| Palvelu                     |     Hinta |
-|:----------------------------|----------:|
-| Olaplex-hoito (lyhyet)      | 50&nbsp;€ |
-| Olaplex-hoito (keskipitkät) | 55&nbsp;€ |
-| Olaplex-hoito (pitkät)      | 60&nbsp;€ |
-| Olaplex-hoito (extrapitkät) | 65&nbsp;€ |
+| Palvelu                |     Hinta |
+|:-----------------------|----------:|
+| Brazilian Bond Builder | 70&nbsp;€ |
 
 </section>
 
@@ -173,9 +171,17 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 </section>
 
-{{< /pricing >}}
+<section>
 
-{{< pricing >}}
+## Kasvohoidot
+
+| Palvelu                              |     Hinta |
+|:-------------------------------------|----------:|
+| Mekaaninen ihonpuhdistus 45min       | 55&nbsp;€ |
+| Payot kasvohoito 90min               | 75&nbsp;€ |
+| Payot happokuorinta kasvohoito 90min | 79&nbsp;€ |
+
+</section>
 
 <section>
 
@@ -201,17 +207,6 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 </section>
 
-<section>
-
-## Kasvohoidot
-
-| Palvelu                              |     Hinta |
-|:-------------------------------------|----------:|
-| Mekaaninen ihonpuhdistus 45min       | 55&nbsp;€ |
-| Payot kasvohoito 90min               | 75&nbsp;€ |
-| Payot happokuorinta kasvohoito 90min | 79&nbsp;€ |
-
-</section>
 
 {{< /pricing >}}
 
