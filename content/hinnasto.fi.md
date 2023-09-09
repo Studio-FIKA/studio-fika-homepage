@@ -109,7 +109,7 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 
 | Palvelu                                                |         Hinta |
 |:-------------------------------------------------------|--------------:|
-| Erikoisvärjäyskonsultaatio                             |             - |
+| Erikoisvärjäyskonsultaatio                             |      0&nbsp;€ |
 | Erikoisvärjäys Lyhyt hiukset                           | 155,50&nbsp;€ |
 | Erikoisvärjäys + hiustenleikkaus Lyhyet hiukset        | 175,50&nbsp;€ |
 | Erikoisvärjäys Puolipitkät hiukset                     | 185,50&nbsp;€ |
@@ -218,10 +218,14 @@ description: Studio FIKA tarjoaa ensiluokkaista palvelua sopimuksen mukaan, myö
 {{< typography type="emphasized" size="md" >}}
 
 <p>
-Hinnat sisältävät alv 24%. Pidätämme oikeudet hinnan muutoksiin. Peruutuksen on
-tapahduttava viimeistään 24h ennen varattua aikaa. Saman vuorokauden aikana
-peruutetuista 50% ja peruuttamattomista ajoista yrityksellä on oikeus periä 100%
-palvelun hinnasta. Reklamaatioaika on 7 vuorokautta.
+Palveluhinnastossa näkyvät hinnat ovat alkaen hintoja. Lopullinen hinta määräytyy hiuksien pituuden, paksuuden sekä käytettyjen aineiden mukaan.
+</p>
+
+<p>
+Hinnat sisältävät alv 24&nbsp;%. Pidätämme oikeudet hinnan muutoksiin. Peruutuksen on
+tapahduttava viimeistään 24 tuntia ennen varattua aikaa. Saman vuorokauden aikana
+peruutetuista 50&nbsp;% ja peruuttamattomista ajoista yrityksellä on oikeus periä 100&nbsp;%
+palvelun hinnasta. Reklamaatioaika on seitsemän vuorokautta.
 </p>
 
 {{< cta type="solid" href="ajanvaraus/" >}}

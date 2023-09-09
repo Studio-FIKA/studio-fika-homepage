@@ -5,7 +5,7 @@ hero: default
 heroImage: images/personnel/team.jpg
 heroHeader: Parturi-kampaamo Studio FIKA
 heroLogo: assets/images/logo/logo_black_text_only.svg
-heroSubtitle: Me välitämme sinun hiuksien ja ihon kunnosta!
+heroSubtitle: Tarjoamme laadukasta ja yksilöllistä palvelua ammattitaidolla ja intohimolla!
 heroCtaText: Varaa aika
 heroCtaHref: ajanvaraus/
 heroShowDecor: true
@@ -20,12 +20,32 @@ heroShowDecor: true
 
 {{< typography type="emphasized" size="md" >}}
 
-<p>Me FIKA:ssa tarjoamme asiakkaillemme laadukasta ja yksilöllistä palvelua ammattitaidolla ja intohimolla! Panostamme omaan kehitykseemme säännöllisillä koulutuksilla. Löydät saman katon alta kaikki parturikampaamon palvelut, meikkaukset, kasvohoidot sekä ripsienpidennykset.</p>
-
-<p>Nykyaikaiset ja remontoidut tilat löytyvät katutasosta aivan Lahden keskustan tuntumasta. Olemme auki sopimuksen mukaan maanantaista sunnuntaihin!</p>
+<p>
+<strong>
+Me FIKA:ssa tarjoamme asiakkaillemme laadukasta ja yksilöllistä palvelua ammattitaidolla ja intohimolla!
+</strong>
+</p>
 
 <p>
-    <strong>Tervetuloa nauttimaan!</strong>
+FIKAssa työskentelee kampaamon puolella neljä hiusalan ammattilaista. Erityisosaamistamme
+ovat hiusten vaalennus- ja värjäyspalvelut, lyhyiden hiusten graafiset leikkaukset sekä
+parturoinnit. Panostamme konsultaation tärkeyteen, omaan kouluttautumiseen sekä trendien
+mukana pysymiseen. Lisämukavuutta kampaamokäynnille tuovat hierovat pesupaikat
+erillishuoneessa joissa rentoudut varmasti. Hoitolahuoneen puolella työskentelee vuosien
+työkokemuksella ripsienpidennyksiin erikoistunut kosmetologimme! Meiltä myös upeat
+kampaukset sekä meikkaukset juhlien luonnetta kunnioittaen.
+</p>
+
+<p>
+Löydät meidät Vesijärvenkatu 34 katutasosta Lahden ytimestä. Meillä on siistit ja remontoidut tilat
+yhdessä tasossa. Lähellä on hyvät pysäköintimahdollisuudet ja julkisella pääset kävelymatkan
+päähän. Olemme auki maanantaista sunnuntaihin sopimuksen mukaan.
+</p>
+
+<p>
+Studion tukipilari on vahva yhteishenki ja yhteenpuhaltaminen. Ollaan saatu paljon positiivista
+palautetta asiakkailta ja kollegoilta siitä, että se välittyy myös muille. Me toivotetaan jokainen
+asiakas tervetulleeksi. Tehdään tätä rakkaudella teille. Nähdään FIKA:ssa.
 </p>
 
 {{< cta type="solid" href="ajanvaraus/" >}}

@@ -27,22 +27,22 @@
 # Personnel introductions
 
 [johannaIntro]
-    other = "Johanna on erikoistunut pitkien ja extrapitkien hiusten vaalennus- ja raidoitustekniikoihin. Hänen käsissään saat upean näyttävän värin ja hyvin hoidetut ja leikatut hiukset. Johanna suosittelee työssään jokaiselle värjäysasiakkaalle Olaplexia, jotta hiukset pysyisivät terveenä myös värikäsittelyn jälkeen."
+    other = "Johanna on erikoistunut pitkien ja extrapitkien hiusten vaalennus- ja raidoitustekniikoihin. Hänen käsissään saat upean näyttävän värin ja hyvin hoidetut ja leikatut hiukset. Johanna työskentelee hiuksien kuntoa kunnioittaen ja käyttää värjäyksien yhteydessä B3 Brazilian Bond Builderhoitotuotteita. Lisäksi Johanna loihtii upeat juhlakampaukset niin morsiamelle kuin juhlavieraillekin."
 
 [miraIntro]
-    other = "Miralta luonnistuu erityisesti niin pitkän hiuksen raidat kuin moniväritkin erilaisin tekniikoin. Mira on aina iloinen ja helposti lähestyttävä asiakaspalvelija. Hän pitää kehitystä tärkeänä urallaan ja kouluttautuu mielellään."
+    other = "Mira on kiinnostunut vaaleista hiuksista ja hän taitaa raidoitukset ja vaalennukset nykyaikaisin tekniikoin. Hän onkin matkalla erikoistumaan vaaleiden hiusten parissa. Mira on aika iloinen ja helposti lähestyttävä asiakaspalvelija."
 
 [miiaIntro]
-    other = "Miian käsissä onnistuu niin monivärit, ihanat ruskeat kuin vaaleat raitatyötkin. Miia on rauhallinen ja tarkka työssään. Miia on myös kiinnostunut alamme tuotteista ja osaakin suositella juuri sinulle oikeat kotihoitotuotteet!"
+    other = "Miian penkissä saat kauniit ja hyvinvoivat hiukset. Eniten puolipitkiä hiuksia sekä pitkiä hiuksia tekevältä Miialta onnistuu erilaiset vaaleat raitatyöt, monivärit sekä pehmeät ruskeat värit. Miia on rauhallinen ja tarkka kampaaja."
+
+[iisaIntro]
+    other = "Iisa on erikoistunut lyhyiden hiusten leikkaus- ja värjäystöihin sekä väriloistokkaisiin erikoisvärjäyksiin. Myös parturityöt, veitsitöitä myöden löydät Iisan varauspalveluista."
+
+[lottaIntro]
+    other = "Kauneudenhoitoalan ammattilainen kosmetologi Lotta tekee työtään rakkaudesta lajiin. Pääsääntöisesti Lotta tekee ripsienpidennyksiä. Häneltä luonnistuu niin klassiset-, hybridi- sekä volyymiripset. Lisäksi hän tekee ripsien ja kulmien kestovärjäyksiä. Lotalta on myös mahdollisuus ostaa ripsienpidennyksien puhdistukseen tarkoitettuja pesutuotteita sekä ihonpuhdistustuotteita!"
 
 [johannaKIntro]
     other = "Johanna on iloinen ja auttavainen meikkaaja, jonka penkissä jokainen tuntee itsensä kauniiksi. Vahva pohjoisen murre puheessa saa jokaiselle hymyn huulille. Johanna on työskennellyt oopperoissa, teattereissa, tv-tuotannoissa sekä erilaisissa kuvauksissa ja tehnyt yksityisasiakkaille heidän tarpeidensa mukaan meikkauksia. Ajanvarauksen voit tehdä joko <a href=\"mailto:info@studiofika.fi\">sähköpostitse</a> tai jättämällä soittopyynnön."
-
-[lottaIntro]
-    other = "Kauneudenhoitoalan ammattilainen Lotta hyppäsi Fikan jengiin syyskuussa! Jo 11 vuotta alalla ollut superkonkari Lotta rakastaa tehdä kasvohoitoja sekä ripsienpidennyksiä! Häneltä luonnistuu niin klassiset-, hybridi- sekä volyymiripset. Lisäksi hän tekee ripsien ja kulmien kestovärjäyksiä. Lotalta on myös mahdollisuus ostaa ripsienpidennyksien puhdistukseen tarkoitettuja pesutuotteita sekä ihonpuhdistustuotteita!"
-
-[iisaIntro]
-    other = "Porukan tuoreimman jäsenen Iisan penkkiin kannattaa suunnata kun kaipailee ideoita lyhyempään hiusmalliin. Iisalta hoituu niin trendikkään parturoinnit kuin partakäsittelytkin. Tämän lisäksi Iisa taitaa väriloistokkaat erikoisvärjäykset!"
 
 # Misc
 
