@@ -71,6 +71,10 @@
             width: 40%;
             right: 32px;
         }
+
+        @include bp-tablet-xxl {
+            bottom: 24px;
+        }
     }
 
     &__logo {
@@ -105,20 +109,20 @@
 
         @include bp-tablet-md {
             display: block;
-            margin: 32px 0 0;
+            margin: 24px 0 0;
             font-family: map-get($font, 'header');
             text-align: center;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.4;
-            max-width: 280px;
+            max-width: 360px;
 
             @include themify {
                 color: themed('color', 'main', '3');
             }
         }
 
-        @include bp-tablet-xxl {
+        @include bp-desktop-xs {
             max-width: none;
         }
     }
@@ -129,7 +133,6 @@
         font-size: 16px;
 
         @include bp-tablet-md {
-            margin-top: 32px;
             font-size: 18px;
         }
     }

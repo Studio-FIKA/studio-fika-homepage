@@ -8,7 +8,7 @@ heroLogo: assets/images/logo/logo_black_text_only.svg
 heroSubtitle: Tarjoamme laadukasta ja yksilöllistä palvelua ammattitaidolla ja intohimolla!
 heroCtaText: Varaa aika
 heroCtaHref: ajanvaraus/
-heroShowDecor: true
+heroShowDecor: false
 ---
 
 <section>
