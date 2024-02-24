@@ -7,37 +7,33 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        padding: clamp(0vw, 66vw, 320px) 0;
+        padding: clamp(0vw, 66vw, 340px) 0;
 
         @include bp-desktop-xs {
             margin: 0 auto 32px;
         }
 
         & > img {
+            user-select: none;
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 50% 80%;
-
-            @include bp-mobile-md {
-                object-position: 50% 80%;
-            }
+            object-position: 30% 80%;
 
             @include bp-mobile-lg {
-                object-position: 50% 30%;
+                object-position: 0% 30%;
             }
 
             @include bp-mobile-xl {
-                object-position: 50% 30%;
+                object-position: 0% 40%;
             }
 
             @include bp-tablet-md {
                 width: 60%;
                 height: 100%;
-                object-position: 0 30%;
             }
         }
     }
@@ -51,7 +47,7 @@
         background: linear-gradient(to top, #fff, rgba(#fff, 0.4), transparent 60%);
 
         @include bp-tablet-md {
-            background: linear-gradient(to top, #fff, rgba(#fff, 0.3), transparent 50%);
+            background: linear-gradient(45deg, #fff 5%, transparent 25%, transparent 50%, #fff 70%);
         }
     }
 
@@ -85,13 +81,10 @@
 
             @include themify {
                 fill: themed('color', 'main', '2');
-                filter: drop-shadow(0 0 16px themed('color', 'complementary', '2'));
-            }
-
-            @include bp-mobile-lg {
-                @include themify {
-                    filter: drop-shadow(0 0 16px rgba(themed('color', 'complementary', '2'), 0.6));
-                }
+                filter:
+                        drop-shadow(1px 1px 0 rgba(themed('color', 'complementary', '2'), 0.2))
+                        drop-shadow(0 0 4px rgba(themed('color', 'complementary', '2'), 0.4))
+                        drop-shadow(0 0 16px rgba(themed('color', 'complementary', '2'), 0.6));
             }
 
             @include bp-tablet-md {
