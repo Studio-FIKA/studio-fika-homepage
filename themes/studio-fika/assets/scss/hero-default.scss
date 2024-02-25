@@ -114,10 +114,10 @@
             margin: 24px 0 0;
             font-family: map-get($font, 'header');
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
             line-height: 1.4;
-            max-width: 270px;
+            max-width: 244px;
 
             @include themify {
                 color: themed('color', 'main', '3');
@@ -125,11 +125,6 @@
         }
 
         @include bp-tablet-lg {
-            font-size: 16px;
-            max-width: 287px;
-        }
-
-        @include bp-tablet-xl {
             font-size: 18px;
             max-width: 323px;
         }
