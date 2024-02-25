@@ -88,7 +88,7 @@
             width: 100%;
 
             @include themify {
-                fill: themed('color', 'main', '2');
+                fill: themed('color', 'main', '1');
                 filter:
                         drop-shadow(1px 1px 0 rgba(themed('color', 'complementary', '2'), 0.2))
                         drop-shadow(0 0 4px rgba(themed('color', 'complementary', '2'), 0.4))
@@ -97,6 +97,7 @@
 
             @include bp-tablet-md {
                 @include themify {
+                    fill: themed('color', 'main', '2');
                     filter:
                         drop-shadow(0 1px 0 themed('color', 'main', '3'))
                         drop-shadow(0 0 16px themed('color', 'complementary', '1'));
