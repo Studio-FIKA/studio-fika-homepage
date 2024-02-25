@@ -16,7 +16,7 @@ heroShowDecor: false
 {{< container maxWidth="tablet-md" padding="md" margin="lg" >}}
 {{< decorated decoration="1" >}}
 
-<h1>Parturi-kampaamo Studio&nbsp;FIKA</h1>
+<h1 class="vhidden--mobile">Parturi-kampaamo Studio&nbsp;FIKA</h1>
 
 {{< typography type="emphasized" size="md" >}}
 

@@ -1,3 +1,9 @@
 .vhidden {
     @include vhidden;
 }
+
+.vhidden--mobile {
+    @include bp($max: map-get($breakpoint, 'tablet-xs')) {
+        @include vhidden;
+    }
+}
