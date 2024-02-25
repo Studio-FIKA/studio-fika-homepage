@@ -81,10 +81,12 @@
                 </dl>
             </div>
         </div>
+        {{ if and (isset .Site.Params.creditsInfo "photographer") (not (eq .Site.Params.creditsInfo.photographer "")) }}
         <div class="main-footer-default__credits">
             <span class="main-footer-default__credit">
                 {{ i18n "photographyBy" }} - {{ .Site.Params.creditsInfo.photographer }}
             </span>
         </div>
+        {{ end }}
     </div>
 </footer>
