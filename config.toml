@@ -44,7 +44,7 @@ timeout = "120s"
         streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
         companyId = "3229112-1"
     [params.creditsInfo]
-        photographer =  "Iisa"
+        photographer = ""
     [[params.socialMedia]]
         name = "Instagram"
         icon = "instagram"
