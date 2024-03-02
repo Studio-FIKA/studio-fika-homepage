@@ -8,5 +8,9 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    rules: {},
+    rules: {
+        'no-await-in-loop': 'off',
+        'no-plusplus': 'off',
+        'no-console': 'off',
+    },
 };
