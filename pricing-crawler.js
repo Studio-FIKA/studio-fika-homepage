@@ -1,3 +1,11 @@
+/**
+ * Copy and paste this code to the browser console when you are on the
+ * "Ajanvaraus" page of the website.
+ *
+ * You might need to open the inspector before running the code or the code
+ * might not work.
+ */
+
 const sleep = async (time) => {
     await new Promise((resolve) => {
         setTimeout(resolve, time);
