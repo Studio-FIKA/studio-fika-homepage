@@ -1,6 +1,6 @@
 ---
 title: Parturi-kampaamo Lahti
-description: Studio FIKA on parturi-kampaamo Lahden keskustassa osoitteessa Vesijärvenkatu 34, 15140 Lahti. Varaa parturi tai kampaaja, nettiajanvaraus 24/7.
+description: Studio FIKA on parturi-kampaamo Lahden keskustassa osoitteessa Vesijärvenkatu 32, 15140 Lahti. Varaa parturi tai kampaaja, nettiajanvaraus 24/7.
 hero: default
 heroImage: images/personnel/team_3_cropped.jpg
 heroHeader: Parturi-kampaamo Studio FIKA
@@ -31,7 +31,7 @@ FIKA:ssa työskentelee kampaamon puolella kolme hiusalan ammattilaista. Panostam
 </p>
 
 <p>
-Löydät meidät Vesijärvenkatu 34 katutasosta Lahden ytimestä. Meillä on siistit ja remontoidut tilat
+Löydät meidät Vesijärvenkatu 32 katutasosta Lahden ytimestä. Meillä on siistit ja remontoidut tilat
 yhdessä tasossa. Lähellä on hyvät pysäköintimahdollisuudet ja julkisella pääset kävelymatkan
 päähän. Olemme auki maanantaista sunnuntaihin sopimuksen mukaan.
 </p>

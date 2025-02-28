@@ -41,7 +41,7 @@ timeout = "120s"
     [params.contactInfo]
         tel = "+358 41 3118130"
         email = "info@studiofika.fi"
-        streetAddress = "Vesijärvenkatu 34, 15140 Lahti"
+        streetAddress = "Vesijärvenkatu 32, 15140 Lahti"
         companyId = "3229112-1"
     [params.creditsInfo]
         photographer = ""

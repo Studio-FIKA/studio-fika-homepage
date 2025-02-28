@@ -1,6 +1,6 @@
 ---
 title: Ajanvaraus
-description: Varaa aika parturi-kampaamo Studio Fikaan. Löydät meidät Lahden keskustasta, Vesijärvenkatu 34:stä, kätevästi Kauppakeskus Sykkeen lähettyviltä. Ajanvaraus 24/7.
+description: Varaa aika parturi-kampaamo Studio Fikaan. Löydät meidät Lahden keskustasta, Vesijärvenkatu 32:stä, kätevästi Kauppakeskus Sykkeen lähettyviltä. Ajanvaraus 24/7.
 mainNavPosition: relative
 ---
 
