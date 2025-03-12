@@ -27,7 +27,7 @@ Me FIKA:ssa tarjoamme asiakkaillemme laadukasta ja yksilöllistä palvelua ammat
 </p>
 
 <p>
-FIKA:ssa työskentelee kampaamon puolella kolme hiusalan ammattilaista. Panostamme konsultaation tärkeyteen, omaan kouluttautumiseen sekä trendien mukana pysymiseen. Hoitolahuoneen puolella työskentelee vuosien työkokemuksella ripsienpidennyksiin erikoistunut kosmetologimme! Meiltä myös upeat kampaukset sekä meikkaukset juhlien luonnetta kunnioittaen.
+FIKA:ssa työskentelee kampaamon puolella neljä hiusalan ammattilaista. Panostamme konsultaation tärkeyteen, omaan kouluttautumiseen sekä trendien mukana pysymiseen. Hoitolahuoneen puolella työskentelee vuosien työkokemuksella ripsienpidennyksiin erikoistunut kosmetologimme! Meiltä myös upeat kampaukset sekä meikkaukset juhlien luonnetta kunnioittaen.
 </p>
 
 <p>
