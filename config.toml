@@ -35,9 +35,9 @@ timeout = "120s"
     [params.theme]
         default = "light"
     [params.mainNavigation]
-        logo = "assets/images/logo/logo_black_gold.svg"
+        logo = "assets/images/logo/logo_black.svg"
     [params.footer]
-        logo = "assets/images/logo/logo_white_gold.svg"
+        logo = "assets/images/logo/logo_gold.svg"
     [params.contactInfo]
         tel = "+358 41 3118130"
         email = "info@studiofika.fi"

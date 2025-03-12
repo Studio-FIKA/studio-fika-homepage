@@ -4,7 +4,7 @@ description: Studio FIKA on parturi-kampaamo Lahden keskustassa osoitteessa Vesi
 hero: default
 heroImage: images/personnel/team_25_1.jpeg
 heroHeader: Parturi-kampaamo Studio FIKA
-heroLogo: assets/images/logo/logo_black_text_only.svg
+heroLogo: assets/images/logo/logo_black.svg
 heroSubtitle: Laadukasta ja yksilöllistä palvelua ammattitaidolla ja intohimolla!
 heroCtaText: Varaa aika
 heroCtaHref: ajanvaraus/
