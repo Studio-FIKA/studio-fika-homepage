@@ -33,13 +33,16 @@
     other = "Mira on kiinnostunut vaaleista hiuksista ja hän taitaa raidoitukset ja vaalennukset nykyaikaisin tekniikoin. Hän onkin matkalla erikoistumaan vaaleiden hiusten parissa. Mira on aika iloinen ja helposti lähestyttävä asiakaspalvelija."
 
 [miiaIntro]
-    other = "Miian penkissä saat kauniit ja hyvinvoivat hiukset. Eniten puolipitkiä hiuksia sekä pitkiä hiuksia tekevältä Miialta onnistuu erilaiset vaaleat raitatyöt, monivärit sekä pehmeät ruskeat värit. Miia on rauhallinen ja tarkka kampaaja."
+    other = "Miian penkissä saat kauniit ja hyvinvoivat hiukset. Eniten lähellä sydäntä on kaikki luonnolliset väri ja sävymaailmat. Miia tekee paljon vaaleita raitatöitä sekä monivärejä. Miia on rauhallinen ja tarkka kampaaja."
 
 [lottaIntro]
     other = "Kauneudenhoitoalan ammattilainen kosmetologi Lotta tekee työtään rakkaudesta lajiin. Pääsääntöisesti Lotta tekee ripsienpidennyksiä. Häneltä luonnistuu niin klassiset-, hybridi- sekä volyymiripset. Lisäksi hän tekee ripsien ja kulmien kestovärjäyksiä. Lotalta on myös mahdollisuus ostaa ripsienpidennyksien puhdistukseen tarkoitettuja pesutuotteita sekä ihonpuhdistustuotteita!"
 
 [johannaKIntro]
     other = "Johanna on iloinen ja auttavainen meikkaaja, jonka penkissä jokainen tuntee itsensä kauniiksi. Vahva pohjoisen murre puheessa saa jokaiselle hymyn huulille. Johanna on työskennellyt oopperoissa, teattereissa, tv-tuotannoissa sekä erilaisissa kuvauksissa ja tehnyt yksityisasiakkaille heidän tarpeidensa mukaan meikkauksia. Ajanvarauksen voit tehdä joko <a href=\"mailto:info@studiofika.fi\">sähköpostitse</a> tai jättämällä soittopyynnön."
+
+[susannaIntro]
+    other = "Hei, olen Susanna, ja olen työskennellyt alalla yli kahdeksan vuotta. Erityisesti nautin lyhyiden ja puolipitkien hiusten värjäyksistä ja moderneista leikkauksista. Asiakkaideni tyytyväisyys on minulle ensisijaisen tärkeää, ja pyrin aina luomaan rentouttavan ja ystävällisen ympäristön. Inspiroidun uusista trendeistä ja asiakkaideni ainutlaatuisista toiveista."
 
 # Misc
 

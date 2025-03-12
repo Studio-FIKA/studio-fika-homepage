@@ -11,7 +11,7 @@ description: Studio Fikan tiimi kostuu asiantuntijoista, jotka ovat erikoistunee
 
 {{< container maxWidth="tablet-lg" padding="md" margin="xxl" >}}
 {{< img
-    src="images/personnel/team_4.jpg"
+    src="images/personnel/team_25_3.jpeg"
     alt="Studio Fikan tiimi"
     320=288
     375=343
