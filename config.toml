@@ -35,9 +35,9 @@ timeout = "120s"
     [params.theme]
         default = "light"
     [params.mainNavigation]
-        logo = "assets/images/logo/logo_black_gold.svg"
+        logo = "assets/images/logo/logo_black.svg"
     [params.footer]
-        logo = "assets/images/logo/logo_white_gold.svg"
+        logo = "assets/images/logo/logo_gold.svg"
     [params.contactInfo]
         tel = "+358 41 3118130"
         email = "info@studiofika.fi"
@@ -56,36 +56,42 @@ timeout = "120s"
         profile = "Studio FIKA"
         url = "https://www.facebook.com/Studio-FIKA-102839872150205/"
     [[params.personnel]]
-        image = "images/personnel/johanna.jpg"
+        image = "images/personnel/johanna_25.jpeg"
         name = "Johanna"
         title = "Blonde Specialist, Balayage"
         introduction = "johannaIntro"
         instagram = "https://www.instagram.com/fika.johanna/"
     [[params.personnel]]
-        image = "images/personnel/mira.jpg"
+        image = "images/personnel/mira_25.jpeg"
         name = "Mira"
         title = "Kampaaja"
         introduction = "miraIntro"
         instagram = "https://www.instagram.com/fika.mira/"
     [[params.personnel]]
-        image = "images/personnel/miia.jpg"
+        image = "images/personnel/miia_25.jpeg"
         name = "Miia"
         title = "Kampaaja"
         introduction = "miiaIntro"
         instagram = "https://www.instagram.com/fika.miia/"
     [[params.personnel]]
-        image = "images/personnel/lotta_3_cropped.jpg"
+        image = "images/personnel/lotta_25.jpeg"
         name = "Lotta"
         title = "Kosmetologi, Ripsiteknikko"
         introduction = "lottaIntro"
         instagram = "https://www.instagram.com/fika.lotta/"
     [[params.personnel]]
-        image = "images/personnel/johanna_k_1.jpg"
+        image = "images/personnel/johanna_k_25.jpeg"
         name = "Johanna K"
         title = "Meikkaaja"
         introduction = "johannaKIntro"
         instagram = "https://www.instagram.com/johannakotromakeup/"
         email = "info@studiofika.fi"
+    [[params.personnel]]
+        image = "images/personnel/susanna_25.jpeg"
+        name = "Susanna"
+        title = "Kampaaja"
+        introduction = "susannaIntro"
+        instagram = "https://www.instagram.com/fika.susku/"
 
 [imaging]
     quality = 90
