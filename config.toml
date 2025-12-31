@@ -84,7 +84,7 @@ timeout = "120s"
         name = "Johanna K"
         title = "Meikkaaja"
         introduction = "johannaKIntro"
-        instagram = "https://www.instagram.com/johannakotromakeup/"
+        instagram = "https://www.instagram.com/byjohannakotro/"
         email = "info@studiofika.fi"
     [[params.personnel]]
         image = "images/personnel/susanna_25.jpeg"
