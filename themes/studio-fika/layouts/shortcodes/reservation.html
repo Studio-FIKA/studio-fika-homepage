@@ -1,3 +1,9 @@
-<iframe width="100%" frameborder="0" src="https://varaa.timma.fi/reservation/studiofika" id="reservationIframe3504"></iframe>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/2.8.3/iframeResizer.min.js"></script>
-<script type="text/javascript">iFrameResize({checkOrigin: false}, '#reservationIframe3504');</script>
+<div class="consent-placeholder" data-consent-required>
+    <p class="consent-placeholder__text">{{ i18n "consentRequiredBooking" }}</p>
+    <button type="button" class="consent-placeholder__button">{{ i18n "cookieConsentAccept" }}</button>
+    <template>
+        <iframe width="100%" frameborder="0" src="https://varaa.timma.fi/reservation/studiofika" id="reservationIframe3504"></iframe>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/2.8.3/iframeResizer.min.js"></script>
+        <script>iFrameResize({checkOrigin: false}, '#reservationIframe3504');</script>
+    </template>
+</div>

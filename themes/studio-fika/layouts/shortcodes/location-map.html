@@ -1,8 +1,12 @@
-<div class="location-map">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.132081715914!2d25.66001011653293!3d60.98637488226893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e29b2c2ff3049%3A0x8b54b7b68cfdde59!2sStudio%20FIKA!5e0!3m2!1sen!2sfi!4v1651301479853!5m2!1sen!2sfi"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+<div class="location-map consent-placeholder" data-consent-required>
+    <p class="consent-placeholder__text">{{ i18n "consentRequiredMap" }}</p>
+    <button type="button" class="consent-placeholder__button">{{ i18n "cookieConsentAccept" }}</button>
+    <template>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.132081715914!2d25.66001011653293!3d60.98637488226893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e29b2c2ff3049%3A0x8b54b7b68cfdde59!2sStudio%20FIKA!5e0!3m2!1sen!2sfi!4v1651301479853!5m2!1sen!2sfi"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </template>
 </div>

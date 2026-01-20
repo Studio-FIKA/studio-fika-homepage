@@ -104,4 +104,33 @@
             text-align: center;
         }
     }
+
+    // Content lists
+    ul,
+    ol {
+        margin: 1em 0;
+        padding-left: 1.5em;
+    }
+
+    ul {
+        list-style-type: disc;
+
+        ul {
+            list-style-type: circle;
+        }
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+
+    li {
+        margin: 0.5em 0;
+
+        &::marker {
+            @include themify {
+                color: themed('color', 'main', '4');
+            }
+        }
+    }
 }
