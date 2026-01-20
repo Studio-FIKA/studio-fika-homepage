@@ -105,3 +105,29 @@
 
 [photographyBy]
     other = "Valokuvaus"
+
+# Cookie consent
+
+[cookieConsentText]
+    other = "Käytämme sivustollamme kolmannen osapuolen palveluita (ajanvaraus, kartta, sosiaalinen media), jotka saattavat asettaa evästeitä."
+
+[cookieConsentAccept]
+    other = "Hyväksy"
+
+[cookieConsentDecline]
+    other = "Hylkää"
+
+[cookieSettings]
+    other = "Evästeasetukset"
+
+[consentRequiredBooking]
+    other = "Ajanvarausjärjestelmä vaatii evästeiden hyväksymisen."
+
+[consentRequiredMap]
+    other = "Kartan näyttäminen vaatii evästeiden hyväksymisen."
+
+[consentRequiredInstagram]
+    other = "Instagram-syötteen näyttäminen vaatii evästeiden hyväksymisen."
+
+[privacyPolicy]
+    other = "Tietosuojaseloste"

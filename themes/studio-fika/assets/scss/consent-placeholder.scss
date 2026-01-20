@@ -1,0 +1,31 @@
+.consent-placeholder {
+    &[data-consent-required] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        min-height: 200px;
+        border-radius: 4px;
+        text-align: center;
+
+        @include themify {
+            background: themed('color', 'main', '2');
+            border: 1px dashed themed('color', 'main', '4');
+        }
+    }
+
+    &__text {
+        font-family: map-get($font, 'text');
+        margin: 0 0 1rem;
+
+        @include themify {
+            color: themed('color', 'main', '4');
+        }
+    }
+
+    &__button {
+        @include cta;
+    }
+}
+

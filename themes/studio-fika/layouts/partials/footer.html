@@ -81,12 +81,20 @@
                 </dl>
             </div>
         </div>
-        {{ if and (isset .Site.Params.creditsInfo "photographer") (not (eq .Site.Params.creditsInfo.photographer "")) }}
-        <div class="main-footer-default__credits">
+        <div class="main-footer-default__bottom">
+            {{ if and (isset .Site.Params.creditsInfo "photographer") (not (eq .Site.Params.creditsInfo.photographer "")) }}
             <span class="main-footer-default__credit">
                 {{ i18n "photographyBy" }} - {{ .Site.Params.creditsInfo.photographer }}
             </span>
+            {{ end }}
+            <nav class="main-footer-default__legal-links">
+                <a href="{{- "tietosuoja/" | absLangURL -}}">
+                    {{- i18n "privacyPolicy" -}}
+                </a>
+                <a href="#" data-cookie-settings>
+                    {{- i18n "cookieSettings" -}}
+                </a>
+            </nav>
         </div>
-        {{ end }}
     </div>
 </footer>
